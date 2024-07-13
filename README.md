@@ -58,4 +58,4 @@ This project is licensed. See the LICENSE.md file for details
 * Markdown cheat sheet (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * Learn theme markdown (https://learn.netlify.app/en/cont/markdown/)
 * Menu extras and shortcuts (https://learn.netlify.app/en/cont/menushortcuts/) 
-* Using Font Awesome Emoji's to help your page pop (https://learn.netlify.app/en/cont/icons/)
+* Using Font Awesome Emoji's to help your page pop (https://learn.netlify.app/en/cont/icons/)# aws-modernization-with-datasaur
