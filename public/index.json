@@ -1,0 +1,148 @@
+[
+{
+	"uri": "//localhost:1313/1_moduleone/11_aboutdatasaur.html",
+	"title": "About Datasaur",
+	"tags": [],
+	"description": "",
+	"content": "About Datasaur Mission At Datasaur, our mission is to transform the way organizations label data for NLP projects and configure LLMs specifically for their business. We aim to provide the most efficient, accurate, and secured data annotation solutions to fuel the NLP and LLM revolution.\nOur Story Datasaur was founded by Ivan Lee, who recognized the growing need for high-quality data labeling in the AI and machine learning industries. With a background in technology and a passion for innovation, Ivan set out to create a platform that would address the challenges of data annotation.\nWhy Datasaur? We are dedicated to delivering top-tier data labeling tools and services. Our platform offers:\nEfficiency: Streamline the labeling process with our intuitive interface and automation features. Accuracy: Ensure high-quality annotations with built-in quality control mechanisms. Scalability: Handle projects of any size with our robust, collaborative tools.\nOur Technology Datasaur leverages cutting-edge technology to provide a seamless data labeling experience. Our platform supports a variety of labeling tasks and integrates with popular machine learning frameworks to enhance productivity and accuracy.\nOur Commitment We are committed to the success of our customers. By providing exceptional support and continuously improving our platform, we help organizations achieve their AI and machine learning goals.\n"
+},
+{
+	"uri": "//localhost:1313/",
+	"title": "AWS - Datasaur Modernization Workshop",
+	"tags": [],
+	"description": "",
+	"content": "AWS Datasaur LLM Labs Welcome! In this lab you will learn how Datasaur\u0026rsquo;s LLM Labs can help you compare, evaluate and validate the right LLM for your specific project(s).\nThe examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be architected to build a solution while demonstrating best practices along the way. These examples are not intended for use in production environments.\n"
+},
+{
+	"uri": "//localhost:1313/3_modulethree/31_explorethemodels.html",
+	"title": "Explore the Models",
+	"tags": [],
+	"description": "",
+	"content": "Explore the Models Navigate to the Models page under LLM Labs menu. Here you can see a lot of models that you can use.\n"
+},
+{
+	"uri": "//localhost:1313/4_modulefour/41_gettingstarted.html",
+	"title": "Getting Started",
+	"tags": [],
+	"description": "",
+	"content": "Getting Started You can visit the Vector stores page by selecting the Vector stores option located in the LLM Labs sidebar.\n"
+},
+{
+	"uri": "//localhost:1313/5_modulefive_compare/41_gettingstarted.html",
+	"title": "Getting Started with the LLM Playground",
+	"tags": [],
+	"description": "",
+	"content": "Getting Started with the LLM Playground Step 1: Create Your LLM Playground Create LLM Playground\nClick on \u0026ldquo;Create Playground\u0026rdquo; to establish your dedicated workspace. You can assign a descriptive name to your playground for easy identification. Step 2: Configure the Playground Application Configure the Application\nAccess the \u0026ldquo;Models Configuration\u0026rdquo; section within your playground. You can adjust various parameters for the connected LLM model, such as temperature or token settings. Experiment with different configurations to observe their impact on the model\u0026rsquo;s responses. Step 3: Run Prompts Enter your desired prompt within the designated area. This prompt can be a question, a task instruction, or any text input you want the LLM model to process. Click \u0026ldquo;Run\u0026rdquo; to trigger the model\u0026rsquo;s response based on your prompt. RAG Example: Healthcare Assistant Here is how Vector Store can streamline the development of a Retrieval-Augmented Generation (RAG) based Healthcare Assistant in LLM Labs:\nCreate the LLM Playground with the User Instruction and System Instruction you\u0026rsquo;ve prepared.\nFrom the Vector stores dropdown, select the vector store you created.\nYou can also view the corresponding chunks from the vector store and the source.\nThis is just one example! Vector Store empowers you to build various LLM applications that rely on efficient retrieval of semantically related information.\n"
+},
+{
+	"uri": "//localhost:1313/1_moduleone.html",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "Introduction Learning Objectives In this workshop, you will learn how to explore and compare over a hundred LLMs. Once you have found a LLM you found most useful for your use-case, you will learn how to deploy that LLM directly from LLM Labs to your application. This workshop will also instruct you on how to evaluate and fine-tune LLM’s prompt responses.\nHow long does it take to sign up? ​​​​It will take user 30 minutes to finish this workshop and go through all of the steps necessary to understand how to use LLM Labs.\nDoes this workshop cost anything? LLM Labs is currently free for users to create a workspace. The only cost involved with LLM Labs is the price of the inference call to the LLM.\nThe platform provides pricing estimations for each type of call to each model, so you’re well aware of the costs, each step of the way.\nYour first few calls are on us. We’re offering new users the ability to make calls to any LLM free of charge.\nWho is the intended audience for this workshop? ​​​​If you are creating an app as a developer and utilizing LLMs, this is a workshop for you. You will be able to deploy your fine-tuned LLM directly from Datasaur to your application.\nIf you are data scientist exploring the utility of LLMs to label and/or evaluate your datasets, LLM Labs will be incredibly useful for this purpose.\nThis workshop is not advanced in terms of technical know-how. We will cover how to compare LLMs, how to evaluate LLMs, and deploy the best one for your business. Our interface is designed for non-technical users so hobbyists, developers, and data scientists alike will all be able to utilize and learn from this workshop.\nWhat are the Modules we will instruct through today? Build a Vector DB What is a Vector DB? A Vector Store is a specialized database designed to store and manage vector embeddings of text data. Vector Store acts as your central hub for all LLM-related vector embeddings within LLM Labs. It offers:\nEfficient Retrieval: It allows you to quickly retrieve relevant information based on similarity score, making it ideal for tasks like question answering and document search.\nKnowledge Base: The Vector Store can be enhanced with additional information, turning vectors into rich knowledge representations.\nFlexibility: You can easily create, update, and delete vectors, providing flexibility for various projects.\nExplore Models Model Management is designed to streamline the process of selecting, using, and deploying LLM models. With a diverse range of over 200 foundation models at your disposal, you can find the perfect fit for your specific use case without the need for extensive training.\nCompare Models LLM Playground is a key feature within LLM Labs, providing a user-friendly environment specifically designed for LLM experimentation. It allows you to:\nConnect your preferred LLM model: Integrate your choice of LLM models to explore their functionalities.\nCreate a dedicated playground: Set up a personalized workspace for your LLM experimentation.\nConfigure your playground (LLM Application): This configuration process defines your LLM Application. It involves defining elements like:\nPrompt Template: Craft a template that specifies the format for user prompts sent to your LLM model. This ensures consistency and clarity in user interactions.\nContext (Vector store): Optionally, integrate a context vector store to provide additional background information to the LLM model, potentially improving its understanding and response accuracy.\nConfiguration: Fine-tune various parameters for the connected LLM model, such as temperature or token settings, to optimize its performance for your specific use case.\nRun prompts: Test your LLM models with various prompts to evaluate their responses and refine your approach.\nLLM Playground offers several advantages for LLM enthusiasts and developers:\nReduced Risk: Experiment with different models without committing to deployment, minimizing potential risks associated with real-world use cases.\nEnhanced Understanding: Gain deeper insights into individual LLM models and their capabilities through hands-on experimentation.\nOptimized Configuration: Fine-tune model parameters within the playground to achieve the best possible results for your specific needs.\nStreamlined Development: Test and refine your LLM applications in a controlled environment before deployment, ensuring optimal performance.\n"
+},
+{
+	"uri": "//localhost:1313/5_modulefive_compare/42_deployingllm.html",
+	"title": "Deploying the LLM",
+	"tags": [],
+	"description": "",
+	"content": "Deploying the LLM Once you\u0026rsquo;ve crafted the perfect LLM configuration within the Playground, you can seamlessly transition it into a real-world application.\nThis configured Playground environment translates to your LLM Application. LLM Labs empowers you to effortlessly deploy your LLM Application, making it accessible via API for integration into your workflows.\nDeployment Page\nThe deployment process is designed for simplicity. Here\u0026rsquo;s how to deploy your LLM Application:\nNavigate to the Deployment Page: Within the LLM Playground, locate the dedicated deployment section. Choose Your LLM Application: Select the specific LLM Application (configured Playground) you want to deploy. Deploy and Access: Initiate the deployment process. Upon successful completion, you\u0026rsquo;ll be able to access your deployed LLM Application through various programming languages like cURL, Python, and Typescript, allowing you to integrate it into your development projects. "
+},
+{
+	"uri": "//localhost:1313/3_modulethree/32_integrating.html",
+	"title": "Integrating LLMs Provider",
+	"tags": [],
+	"description": "",
+	"content": "Integrating LLMs Provider You can also integrate into several LLMs providers such as Amazon SageMaker JumpStart, OpenAI, and Azure OpenAI by clicking the Manage providers button.\nTo integrate the LLMs provider, you will need to set up and add their providers credentials in Datasaur. Once the provider is integrated, you can deploy and use their own models in Datasaur. Deploy the models After integrating the LLMs provider, you can deploy your own model in Datasaur. To deploy the model, click on \u0026lsquo;Deploy model\u0026rsquo;. The Deploy model dialog will be shown. In this dialog, you need to input your specific endpoint name. Once you\u0026rsquo;ve clicked the Deploy model button, you will need to wait several minutes for deployment to complete. You can monitor the latest status of the deployment through model status information at the top right. After the deployment process is complete, the model status will change to Available in the status information. "
+},
+{
+	"uri": "//localhost:1313/2_moduletwo_setup.html",
+	"title": "Prerequisites and Setup",
+	"tags": [],
+	"description": "",
+	"content": "Prerequisites and Setup Sign Up for LLM Labs Sign Up To sign up for Datasaur all you need to do is go to: https://datasaur.ai/llm/llm-home\u000bSelect: “Sign up for free” at the top of the page.\nCreate Your Workspace Once you find yourself in your LLM Labs workspace, navigate to the left menu panel.\nSelect “Settings.” On this page you will be able to connect to:\nChange your workspace name and picture Create API keys Enable SAML 2.0 to securitize team logins The above 3 options are optional; you do not have to create a name for the workspace, create API keys, or enable SAML 2.0.\n"
+},
+{
+	"uri": "//localhost:1313/4_modulefour/42_vectorestorecreation.html",
+	"title": "Vector Store Creation",
+	"tags": [],
+	"description": "",
+	"content": "Vector Store Creation Click the Create new vector store button.\nConfigure your vector store settings.\nThe configurations are:\nName: Your preferred vector store name\nVector store provider: We support two types of vector store provider:\nDatasaur: Utilizing the Datasaur provider means Datasaur will handle the embedding process for you.\nExternal: Choosing the External provider allows you to handle the embedding process independently.\nEmbedding model: Your preferred embedding models. Several embedding models that we support by default are:\ntext-embedding-ada-002 text-embedding-3-small text-embedding-3-large Chunk size: The maximum number of characters that a chunk can contain. The larger the numbers, the bigger each chunk will be, allowing more data to be included within it.\nOverlap: The number of characters that should overlap between two adjacent chunks. The larger the overlap, the more information each chunk shares with its neighboring chunks.\nAdvanced settings: Additional settings can enhance your data organization by enabling you to provide information about the file using the File Properties feature.\n"
+},
+{
+	"uri": "//localhost:1313/5_modulefive_compare/43_costprediction.html",
+	"title": "Cost Prediction Calculation",
+	"tags": [],
+	"description": "",
+	"content": "Cost Prediction Calculation Overview The Cost Prediction for Inference feature aims to enhance user experience by providing transparency and predictability in terms of the costs incurred during language model inference. Users can now estimate the financial implications of their inferencing activities within LLM Lab.\nHow to see the cost prediction?\nIn the meantime, we only support cost prediction for OpenAI and Azure OpenAI models.\nOpen your LLM Application. Write your prompt query, and the predicted cost from your prompt templates will be shown. Cost Prediction Calculation\nThe cost prediction will calculate the cost based on your available prompt template, the more prompt template you have the cost will be more expensive.\nView Prediction Details To see the prediction details, you just have to click the cost prediction. It will show you a dialog of the detailed cost. Detailed Cost Prediction for Prompt\nYou can also break down and compare the cost prediction based on your available prompt template. Breakdown Cost Prediction for Prompt Template 1 "
+},
+{
+	"uri": "//localhost:1313/3_modulethree.html",
+	"title": "Explore Over 200 Models",
+	"tags": [],
+	"description": "",
+	"content": "Explore Over 200 Models With LLM Labs you can explore over 200 LLMs to help you compare and validate the right model for your project.\n"
+},
+{
+	"uri": "//localhost:1313/4_modulefour/43_knowledgebase.html",
+	"title": "Knowledge Base",
+	"tags": [],
+	"description": "",
+	"content": "Knowledge Base Once the vector store is created, you can add your files for embedding by uploading them to the Knowledge Base. You can also add your files via the External Object Storage.\nAfter you select the files, please click on the \u0026ldquo;Update Vector Store\u0026rdquo; button to initiate the embedding process. The embedding process might take some time, depending on the file size and the number of files.\nAfter completing the embedding process, you can preview the files and use them to conduct Retrieval-Augmented Generation (RAG) in LLM Labs. In this example, we embed our sample \u0026ldquo;Patient Records,\u0026rdquo; which will be used for the RAG process in LLM Labs.\n"
+},
+{
+	"uri": "//localhost:1313/3_modulethree/33_mymodels.html",
+	"title": "My Models",
+	"tags": [],
+	"description": "",
+	"content": "My Models The My Models page allows you to view all deployed models and provides functionality for deploying and undeploying models.\nBy default, Datasaur already provides you with Direct Access LLMs that are ready to use on this My models page. Every new model that you deploy in the LLMs providers will be synced to Datasaur, and you can use it right away in Datasaur. If the models you just deployed haven\u0026rsquo;t appeared on My models page, you can click the Sync models button.\nUndeploying models To undeploy a model, you can click the three dots on the model card and select the Undeploy model button.\nThe model status will be changed into unavailable once you click the Undeploy model button.\n"
+},
+{
+	"uri": "//localhost:1313/3_modulethree/34_disconnect.html",
+	"title": "Disconnect the LLMs provider",
+	"tags": [],
+	"description": "",
+	"content": "Disconnect the LLMs Provider You can disconnect the LLMs provider by clicking the Manage providers button. The Manage providers dialog will be shown, and you can see the providers that you have already connected.\nClick the See details button, and you will see the Disconnect button in the bottom left of the dialog.\nOnce you’ve clicked the Disconnect button, the providers will be disconnected from your workspace.\n"
+},
+{
+	"uri": "//localhost:1313/4_modulefour/44_search.html",
+	"title": "Search",
+	"tags": [],
+	"description": "",
+	"content": "Search The search function allows you to validate the effectiveness of your knowledge base in providing context. The search results are shown in chunks that follow the chunk size and overlap value you specified when creating the vector store. Each chunk will have a similarity score along with its source. A higher similarity score means the chunk content is more related to the given prompt.\n"
+},
+{
+	"uri": "//localhost:1313/4_modulefour.html",
+	"title": "Vector Store",
+	"tags": [],
+	"description": "",
+	"content": "Vector Store We know show how you can integrate Vector Stores with LLM Labs. "
+},
+{
+	"uri": "//localhost:1313/4_modulefour/45_activity.html",
+	"title": "Activity",
+	"tags": [],
+	"description": "",
+	"content": "Activity The Activity feature logs all actions performed on your Vector stores, making it easier to track changes and actions. You can filter the activity based on member, file, file source, and date.\n"
+},
+{
+	"uri": "//localhost:1313/5_modulefive_compare.html",
+	"title": "LLM Playgrounds",
+	"tags": [],
+	"description": "",
+	"content": "LLM Playgrounds We know show how you can compare models using LLM Playgrounds. "
+},
+{
+	"uri": "//localhost:1313/categories.html",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "//localhost:1313/tags.html",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

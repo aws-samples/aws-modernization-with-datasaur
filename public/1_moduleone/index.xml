@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on English</title>
+    <link>//localhost:1313/1_moduleone.html</link>
+    <description>Recent content in Introduction on English</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/1_moduleone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Datasaur</title>
+      <link>//localhost:1313/1_moduleone/11_aboutdatasaur.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/1_moduleone/11_aboutdatasaur.html</guid>
+      <description>About Datasaur Mission At Datasaur, our mission is to transform the way organizations label data for NLP projects and configure LLMs specifically for their business. We aim to provide the most efficient, accurate, and secured data annotation solutions to fuel the NLP and LLM revolution.&#xA;Our Story Datasaur was founded by Ivan Lee, who recognized the growing need for high-quality data labeling in the AI and machine learning industries. With a background in technology and a passion for innovation, Ivan set out to create a platform that would address the challenges of data annotation.</description>
+    </item>
+  </channel>
+</rss>

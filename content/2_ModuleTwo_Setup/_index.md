@@ -1,14 +1,34 @@
 ---
-title: "Self-Guided Workshop Setup" # MODIFY THIS TITLE IF APPLICABLE
+title: "Prerequisites and Setup" # MODIFY THIS TITLE IF APPLICABLE
 chapter: true
 weight: 2
 ---
 
-# Self-Guided Workshop Setup <!-- MODIFY THIS HEADING -->
+# Prerequisites and Setup <!-- MODIFY THIS HEADING -->
 
-## Module Two Heading <!-- MODIFY THIS SUBHEADING -->
+## Sign Up for LLM Labs <!-- MODIFY THIS SUBHEADING -->
 
-This paragraph block should be an introduction to the module about the self-guided method of setting up the workshop. Some typical examples of the steps in this process this will involve setting up an AWS account, signing up for the partner platform, requesting marketplace credits, and provisioning both IAM roles and necessary AWS services. As with everything else, submodules can be added by copying and pasting files. An example of content guidance can be found at the bottom of the page. Extra module files can be added as necessary.
+### Sign Up
+
+To sign up for Datasaur all you need to do is go to: https://datasaur.ai/llm/llm-home
+
+Select: “Sign up for free” at the top of the page. 
+
+![Partner Logo](/images/signup.png) 
+
+### Create Your Workspace
+
+Once you find yourself in your LLM Labs workspace, navigate to the left menu panel. 
+
+Select “Settings.” On this page you will be able to connect to:
+1) Change your workspace name and picture
+2) Create API keys
+3) Enable SAML 2.0 to securitize team logins
+
+![Workshop](/images/Workshop.png) 
+The above 3 options are optional; you do not have to create a name for the workspace, create API keys, or enable SAML 2.0. 
+
+
 
 {{% notice info %}}
 <p style='text-align: left;'>
@@ -16,24 +36,13 @@ This paragraph block should be an introduction to the module about the self-guid
 </p>
 {{% /notice %}}
 
-**REMOVE:** Every introduction page should include the following warning label.
-
-{{% notice warning %}}
-The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be architected to build a solution while demonstrating best practices along the way. These examples are not intended for use in production environments.
-{{% /notice %}}
-
-### Next Section Heading <!-- MODIFY THIS HEADING -->
-This paragraph block can optionally be utilized to lead into the next section of the workshop.
 
 
-#### Example of content guidance
-
-# Self-Guided Workshop
 
 
-Welcome to the Self Guided Setup section! This workshop requires an AWS account where there is IAM user/identity that has proper permissions to set up the necessary AWS components to work through the workshop. Worried about costs associated with this workshop? Don’t worry, go to the next page and request some AWS credits to pay for any costs that may be incurred through this workshop!
 
-Here is a preview of what we will be setting up:
+
+###
 
 <ol>
     <li>Creating an AWS account with proper permissions</li>

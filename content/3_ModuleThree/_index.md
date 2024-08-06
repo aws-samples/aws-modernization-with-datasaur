@@ -1,20 +1,15 @@
 ---
-title: "Partner Setup" # MODIFY THIS TITLE IF APPLICABLE
+title: "Explore Over 200 Models" # MODIFY THIS TITLE IF APPLICABLE
 chapter: true
 weight: 3
 ---
 
-# Partner Setup <!-- MODIFY THIS HEADING -->
+# Explore Over 200 Models <!-- MODIFY THIS HEADING -->
 
-## Module Three Heading <!-- MODIFY THIS SUBHEADING -->
+With LLM Labs you can explore over 200 LLMs to help you compare and validate the right model for your project.
 
-This paragraph block should be an introduction to the module about requirements the partner may need for their audience members. Examples include signing up for the partner platform or installing an agent.
 
-### Module Three Subheading <!-- MODIFY THIS SUBHEADING -->
-This paragraph block should be utilized to briefly explain the submodules. <br>
 
-#### Partner Setup Instructions <!-- MODIFY THIS SUBHEADING IF APPLICABLE -->
-A brief overview of submodule one.
 
 {{% notice info %}}
 <p style='text-align: left;'>
@@ -22,11 +17,5 @@ A brief overview of submodule one.
 </p>
 {{% /notice %}}
 
-**REMOVE:** Every introduction page should include the following warning label.
 
-{{% notice warning %}}
-The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be architected to build a solution while demonstrating best practices along the way. These examples are not intended for use in production environments.
-{{% /notice %}}
 
-### Next Section Heading <!-- MODIFY THIS HEADING -->
-This paragraph block can optionally be utilized to lead into the next section of the workshop.

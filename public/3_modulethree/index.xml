@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Explore Over 200 Models on English</title>
+    <link>//localhost:1313/3_modulethree.html</link>
+    <description>Recent content in Explore Over 200 Models on English</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/3_modulethree/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Explore the Models</title>
+      <link>//localhost:1313/3_modulethree/31_explorethemodels.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/3_modulethree/31_explorethemodels.html</guid>
+      <description>Explore the Models Navigate to the Models page under LLM Labs menu. Here you can see a lot of models that you can use.</description>
+    </item>
+    <item>
+      <title>Integrating LLMs Provider</title>
+      <link>//localhost:1313/3_modulethree/32_integrating.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/3_modulethree/32_integrating.html</guid>
+      <description>Integrating LLMs Provider You can also integrate into several LLMs providers such as Amazon SageMaker JumpStart, OpenAI, and Azure OpenAI by clicking the Manage providers button.&#xA;To integrate the LLMs provider, you will need to set up and add their providers credentials in Datasaur. Once the provider is integrated, you can deploy and use their own models in Datasaur. Deploy the models After integrating the LLMs provider, you can deploy your own model in Datasaur.</description>
+    </item>
+    <item>
+      <title>My Models</title>
+      <link>//localhost:1313/3_modulethree/33_mymodels.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/3_modulethree/33_mymodels.html</guid>
+      <description>My Models The My Models page allows you to view all deployed models and provides functionality for deploying and undeploying models.&#xA;By default, Datasaur already provides you with Direct Access LLMs that are ready to use on this My models page. Every new model that you deploy in the LLMs providers will be synced to Datasaur, and you can use it right away in Datasaur. If the models you just deployed haven&amp;rsquo;t appeared on My models page, you can click the Sync models button.</description>
+    </item>
+    <item>
+      <title>Disconnect the LLMs provider</title>
+      <link>//localhost:1313/3_modulethree/34_disconnect.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/3_modulethree/34_disconnect.html</guid>
+      <description>Disconnect the LLMs Provider You can disconnect the LLMs provider by clicking the Manage providers button. The Manage providers dialog will be shown, and you can see the providers that you have already connected.&#xA;Click the See details button, and you will see the Disconnect button in the bottom left of the dialog.&#xA;Once you’ve clicked the Disconnect button, the providers will be disconnected from your workspace.</description>
+    </item>
+  </channel>
+</rss>

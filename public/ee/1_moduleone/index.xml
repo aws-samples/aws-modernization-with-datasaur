@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on Event Engine Setup</title>
+    <link>//localhost:1313/ee/1_moduleone.html</link>
+    <description>Recent content in Introduction on Event Engine Setup</description>
+    <generator>Hugo</generator>
+    <language>ee</language>
+    <atom:link href="//localhost:1313/ee/1_moduleone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Foreword</title>
+      <link>//localhost:1313/ee/1_moduleone/11_foreword.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ee/1_moduleone/11_foreword.html</guid>
+      <description>Foreword Submodule One Heading This paragraph block should be an explanation of an existing problem and how the partner has worked to achieve a solution for it. Example content guidance can be found at the bottom of this page.&#xA;Next Section Heading This paragraph block can optionally be utilized to lead into the next section of the workshop.&#xA;Example Content Guidance The nature of software development has fundamentally changed Teams and organizations are releasing code at a record breaking pace and only getting faster.</description>
+    </item>
+  </channel>
+</rss>

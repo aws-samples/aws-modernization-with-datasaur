@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vector Store on English</title>
+    <link>//localhost:1313/4_modulefour.html</link>
+    <description>Recent content in Vector Store on English</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/4_modulefour/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started</title>
+      <link>//localhost:1313/4_modulefour/41_gettingstarted.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/4_modulefour/41_gettingstarted.html</guid>
+      <description>Getting Started You can visit the Vector stores page by selecting the Vector stores option located in the LLM Labs sidebar.</description>
+    </item>
+    <item>
+      <title>Vector Store Creation</title>
+      <link>//localhost:1313/4_modulefour/42_vectorestorecreation.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/4_modulefour/42_vectorestorecreation.html</guid>
+      <description>Vector Store Creation Click the Create new vector store button.&#xA;Configure your vector store settings.&#xA;The configurations are:&#xA;Name: Your preferred vector store name&#xA;Vector store provider: We support two types of vector store provider:&#xA;Datasaur: Utilizing the Datasaur provider means Datasaur will handle the embedding process for you.&#xA;External: Choosing the External provider allows you to handle the embedding process independently.&#xA;Embedding model: Your preferred embedding models. Several embedding models that we support by default are:</description>
+    </item>
+    <item>
+      <title>Knowledge Base</title>
+      <link>//localhost:1313/4_modulefour/43_knowledgebase.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/4_modulefour/43_knowledgebase.html</guid>
+      <description>Knowledge Base Once the vector store is created, you can add your files for embedding by uploading them to the Knowledge Base. You can also add your files via the External Object Storage.&#xA;After you select the files, please click on the &amp;ldquo;Update Vector Store&amp;rdquo; button to initiate the embedding process. The embedding process might take some time, depending on the file size and the number of files.&#xA;After completing the embedding process, you can preview the files and use them to conduct Retrieval-Augmented Generation (RAG) in LLM Labs.</description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>//localhost:1313/4_modulefour/44_search.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/4_modulefour/44_search.html</guid>
+      <description>Search The search function allows you to validate the effectiveness of your knowledge base in providing context. The search results are shown in chunks that follow the chunk size and overlap value you specified when creating the vector store. Each chunk will have a similarity score along with its source. A higher similarity score means the chunk content is more related to the given prompt.</description>
+    </item>
+    <item>
+      <title>Activity</title>
+      <link>//localhost:1313/4_modulefour/45_activity.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/4_modulefour/45_activity.html</guid>
+      <description>Activity The Activity feature logs all actions performed on your Vector stores, making it easier to track changes and actions. You can filter the activity based on member, file, file source, and date.</description>
+    </item>
+  </channel>
+</rss>
