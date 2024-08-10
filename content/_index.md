@@ -12,7 +12,7 @@ weight: 1
 
 
 
-## Welcome!
+## Welcome friends!
 
 In this lab you will learn how Datasaur's LLM Labs can help you compare, evaluate and validate the right LLM for your specific project(s).
 

@@ -183,7 +183,7 @@ Resources:
                 Repo: !Ref GitHubRepo
                 Branch: main
                 PollForSourceChanges: false
-                OAuthToken: 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
+                OAuthToken: '{{resolve:secretsmanager:GitHub/WorkshopOwnerToken:SecretString:OwnerToken}}'
               OutputArtifacts:
                 - Name: SourceCode
               RunOrder: 1
@@ -208,7 +208,7 @@ Resources:
     Properties:
       Authentication: GITHUB_HMAC
       AuthenticationConfiguration:
-        SecretToken: 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
+        SecretToken: '{{resolve:secretsmanager:GitHub/WorkshopOwnerToken:SecretString:OwnerToken}}'
       RegisterWithThirdParty: true
       Filters:
       - JsonPath: "$.ref"
