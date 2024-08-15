@@ -6,6 +6,6 @@ weight: 4
 
 # Vector Store
 
-We know show how you can integrate Vector Stores with LLM Labs.
+We now show how you can integrate Vector Stores with LLM Labs.
 <br>
 

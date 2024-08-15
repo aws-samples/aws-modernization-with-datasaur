@@ -11,7 +11,7 @@
 	"title": "AWS - Datasaur Modernization Workshop",
 	"tags": [],
 	"description": "",
-	"content": "AWS Datasaur LLM Labs Welcome friends! In this lab you will learn how Datasaur\u0026rsquo;s LLM Labs can help you compare, evaluate and validate the right LLM for your specific project(s).\nThe examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be architected to build a solution while demonstrating best practices along the way. These examples are not intended for use in production environments.\n"
+	"content": "AWS Datasaur LLM Labs Welcome to Datasaur! In this lab you will learn how Datasaur\u0026rsquo;s LLM Labs can help you compare, evaluate and validate the right LLM for your specific project(s).\nThe examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be architected to build a solution while demonstrating best practices along the way. These examples are not intended for use in production environments.\n"
 },
 {
 	"uri": "//localhost:1313/3_modulethree/31_explorethemodels.html",
@@ -116,7 +116,7 @@
 	"title": "Vector Store",
 	"tags": [],
 	"description": "",
-	"content": "Vector Store We know show how you can integrate Vector Stores with LLM Labs. "
+	"content": "Vector Store We now show how you can integrate Vector Stores with LLM Labs. "
 },
 {
 	"uri": "//localhost:1313/4_modulefour/45_activity.html",
@@ -130,7 +130,7 @@
 	"title": "LLM Playgrounds",
 	"tags": [],
 	"description": "",
-	"content": "LLM Playgrounds We know show how you can compare models using LLM Playgrounds. "
+	"content": "LLM Playgrounds We now show how you can compare models using LLM Playgrounds. "
 },
 {
 	"uri": "//localhost:1313/categories.html",

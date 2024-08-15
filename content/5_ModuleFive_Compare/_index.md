@@ -6,6 +6,6 @@ weight: 5
 
 # LLM Playgrounds
 
-We know show how you can compare models using LLM Playgrounds.
+We now show how you can compare models using LLM Playgrounds.
 <br>
 
