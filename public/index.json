@@ -116,7 +116,7 @@
 	"title": "Vector Store",
 	"tags": [],
 	"description": "",
-	"content": "Vector Store We now show how you can integrate Vector Stores with LLM Labs. "
+	"content": "Vector Store test We now show how you can integrate Vector Stores with LLM Labs. "
 },
 {
 	"uri": "//localhost:1313/4_modulefour/45_activity.html",

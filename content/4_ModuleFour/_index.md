@@ -4,7 +4,7 @@ chapter: true
 weight: 4
 ---
 
-# Vector Store
+# Vector Store test
 
 We now show how you can integrate Vector Stores with LLM Labs.
 <br>
