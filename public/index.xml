@@ -29,18 +29,18 @@
       <description>Getting Started You can visit the Vector stores page by selecting the Vector stores option located in the LLM Labs sidebar.</description>
     </item>
     <item>
-      <title>Getting Started with the LLM Playground</title>
+      <title>Getting Started with the Sandbox</title>
       <link>//localhost:1313/5_modulefive_compare/41_gettingstarted.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/5_modulefive_compare/41_gettingstarted.html</guid>
-      <description>Getting Started with the LLM Playground Step 1: Create Your LLM Playground Create LLM Playground&#xA;Click on &amp;ldquo;Create Playground&amp;rdquo; to establish your dedicated workspace. You can assign a descriptive name to your playground for easy identification. Step 2: Configure the Playground Application Configure the Application&#xA;Access the &amp;ldquo;Models Configuration&amp;rdquo; section within your playground. You can adjust various parameters for the connected LLM model, such as temperature or token settings. Experiment with different configurations to observe their impact on the model&amp;rsquo;s responses.</description>
+      <description>Getting Started with the Sandbox Step 1: Create Your Sandbox Create Sandbox&#xA;Click on &amp;ldquo;Create Sandbox&amp;rdquo; to establish your dedicated workspace. You can assign a descriptive name to your sandbox for easy identification. Step 2: Configure the Sandbox Application Configure the Application&#xA;Access the &amp;ldquo;Models Configuration&amp;rdquo; section. You can adjust various parameters for the connected LLM model, such as temperature or token settings. Here we will test multiple Amazon Bedrock models to discover the best performing and cost efficient model.</description>
     </item>
     <item>
-      <title>Deploying the LLM</title>
-      <link>//localhost:1313/5_modulefive_compare/42_deployingllm.html</link>
+      <title>Cost Prediction Calculation</title>
+      <link>//localhost:1313/5_modulefive_compare/42_costprediction.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/5_modulefive_compare/42_deployingllm.html</guid>
-      <description>Deploying the LLM Once you&amp;rsquo;ve crafted the perfect LLM configuration within the Playground, you can seamlessly transition it into a real-world application.&#xA;This configured Playground environment translates to your LLM Application. LLM Labs empowers you to effortlessly deploy your LLM Application, making it accessible via API for integration into your workflows.&#xA;Deployment Page&#xA;The deployment process is designed for simplicity. Here&amp;rsquo;s how to deploy your LLM Application:&#xA;Navigate to the Deployment Page: Within the LLM Playground, locate the dedicated deployment section.</description>
+      <guid>//localhost:1313/5_modulefive_compare/42_costprediction.html</guid>
+      <description>Cost Prediction Calculation Overview The Cost Prediction for Inference feature aims to enhance user experience by providing transparency and predictability in terms of the costs incurred during language model inference. Users can now estimate the financial implications of their inferencing activities within LLM Lab.&#xA;When looking at the responses that were returned from your prompt, you’ll see a cost indication for each return. Cost Prediction Calculation&#xA;The cost prediction will calculate the cost based on your available prompt template, the more prompt template you have the cost will be more expensive.</description>
     </item>
     <item>
       <title>Integrating LLMs Provider</title>
@@ -57,11 +57,11 @@
       <description>Vector Store Creation Click the Create new vector store button.&#xA;Configure your vector store settings.&#xA;The configurations are:&#xA;Name: Your preferred vector store name&#xA;Vector store provider: We support two types of vector store provider:&#xA;Datasaur: Utilizing the Datasaur provider means Datasaur will handle the embedding process for you.&#xA;External: Choosing the External provider allows you to handle the embedding process independently.&#xA;Embedding model: Your preferred embedding models. Several embedding models that we support by default are:</description>
     </item>
     <item>
-      <title>Cost Prediction Calculation</title>
-      <link>//localhost:1313/5_modulefive_compare/43_costprediction.html</link>
+      <title>Deploying the LLM</title>
+      <link>//localhost:1313/5_modulefive_compare/43_deployingllm.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/5_modulefive_compare/43_costprediction.html</guid>
-      <description>Cost Prediction Calculation Overview The Cost Prediction for Inference feature aims to enhance user experience by providing transparency and predictability in terms of the costs incurred during language model inference. Users can now estimate the financial implications of their inferencing activities within LLM Lab.&#xA;How to see the cost prediction?&#xA;In the meantime, we only support cost prediction for OpenAI and Azure OpenAI models.&#xA;Open your LLM Application. Write your prompt query, and the predicted cost from your prompt templates will be shown.</description>
+      <guid>//localhost:1313/5_modulefive_compare/43_deployingllm.html</guid>
+      <description>Deploying the LLM Once you&amp;rsquo;ve crafted the perfect LLM configuration within the Playground, you can seamlessly transition it into a real-world application.&#xA;This configured Playground environment translates to your LLM Application. LLM Labs empowers you to effortlessly deploy your LLM Application, making it accessible via API for integration into your workflows.&#xA;Deployment Page&#xA;The deployment process is designed for simplicity. Here&amp;rsquo;s how to deploy your LLM Application:&#xA;Navigate to the Deployment Page: Within the LLM Playground, locate the dedicated deployment section.</description>
     </item>
     <item>
       <title>Knowledge Base</title>

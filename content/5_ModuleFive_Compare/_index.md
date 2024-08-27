@@ -1,11 +1,11 @@
 ---
-title: "LLM Playgrounds"
+title: "Sandbox"
 chapter: true
 weight: 5
 ---
 
-# LLM Playgrounds
+# Sandbox
 
-We now show how you can compare models using LLM Playgrounds.
+We now show how you can compare models using Sandbox.
 <br>
 

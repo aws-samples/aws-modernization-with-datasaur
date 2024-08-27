@@ -44,13 +44,13 @@ What is a Vector DB? A Vector Store is a specialized database designed to store 
 Model Management is designed to streamline the process of selecting, using, and deploying LLM models. With a diverse range of over 200 foundation models at your disposal, you can find the perfect fit for your specific use case without the need for extensive training.
 
 ### Compare Models
-LLM Playground is a key feature within LLM Labs, providing a user-friendly environment specifically designed for LLM experimentation. It allows you to:
+Sandbox is a key feature within LLM Labs, providing a user-friendly environment specifically designed for LLM experimentation. It allows you to:
 
 **Connect your preferred LLM model:** Integrate your choice of LLM models to explore their functionalities.
 
-**Create a dedicated playground:** Set up a personalized workspace for your LLM experimentation.
+**Create a dedicated sandbox:** Set up a personalized workspace for your LLM experimentation.
 
-**Configure your playground (LLM Application):** This configuration process defines your LLM Application. It involves defining elements like:
+**Configure your sandbox (LLM Application):** This configuration process defines your LLM Application. It involves defining elements like:
 
 **Prompt Template:** Craft a template that specifies the format for user prompts sent to your LLM model. This ensures consistency and clarity in user interactions.
 
@@ -60,13 +60,13 @@ LLM Playground is a key feature within LLM Labs, providing a user-friendly envir
 
 **Run prompts:** Test your LLM models with various prompts to evaluate their responses and refine your approach.
 
-LLM Playground offers several advantages for LLM enthusiasts and developers:
+Sandbox offers several advantages for LLM enthusiasts and developers:
 
 **Reduced Risk:** Experiment with different models without committing to deployment, minimizing potential risks associated with real-world use cases.
 
 **Enhanced Understanding:** Gain deeper insights into individual LLM models and their capabilities through hands-on experimentation.
 
-**Optimized Configuration:** Fine-tune model parameters within the playground to achieve the best possible results for your specific needs.
+**Optimized Configuration:** Fine-tune model parameters within the sandbox to achieve the best possible results for your specific needs.
 
 **Streamlined Development:** Test and refine your LLM applications in a controlled environment before deployment, ensuring optimal performance.
 
