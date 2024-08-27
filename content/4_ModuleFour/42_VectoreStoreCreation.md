@@ -25,9 +25,23 @@ The configurations are:
 
 **Embedding model:** Your preferred embedding models. Several embedding models that we support by default are:
 
-- text-embedding-ada-002
-- text-embedding-3-small
-- text-embedding-3-large
+Amazon Bedrock (served by Datasaur)
+- amazon.titan-embed-text-v1
+- amazon.titan-embed-image-v1
+- amazon.titan-embed-text-v2:0
+- cohere.embed-english-v3
+- cohere.embed-multilingual-v3
+
+OpenAI (served by Datasaur)
+- Text Embedding Ada 002
+- Text Embedding 3 Small
+- Text Embedding 3 Large
+
+Vertex AI (served by Datasaur)
+- textembedding gecko@003
+- text-embedding-004
+- textembedding-gecko-multilingual@001
+- text-multilingual-embedding-002
 
 **Chunk size:** The maximum number of characters that a chunk can contain. The larger the numbers, the bigger each chunk will be, allowing more data to be included within it.
 

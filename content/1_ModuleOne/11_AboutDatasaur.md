@@ -19,7 +19,9 @@ Datasaur was founded by Ivan Lee, who recognized the growing need for high-quali
 We are dedicated to delivering top-tier data labeling tools and services. Our platform offers:
 
 **Efficiency:** Streamline the labeling process with our intuitive interface and automation features.
+
 **Accuracy:** Ensure high-quality annotations with built-in quality control mechanisms.
+
 **Scalability:** Handle projects of any size with our robust, collaborative tools.
 
 ## Our Technology

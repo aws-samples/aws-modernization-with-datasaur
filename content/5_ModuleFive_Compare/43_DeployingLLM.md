@@ -1,7 +1,7 @@
 ---
 title: "Deploying the LLM" # MODIFY THIS TITLE
 chapter: true
-weight: 2 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES
+weight: 3 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES
 ---
 
 # Deploying the LLM <!-- MODIFY THIS HEADING -->
