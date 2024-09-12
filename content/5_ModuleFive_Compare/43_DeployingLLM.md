@@ -9,7 +9,7 @@ Once you've crafted the perfect LLM configuration within the Sandbox, you can se
 
 This configured Sandbox environment translates to your LLM Application. LLM Labs empowers you to effortlessly deploy your LLM Application, making it accessible via API for integration into your workflows.
 
-![Deployed](/images/deployed.png) 
+![Deployed](/images/deployed1.png) 
 *Deployment Page*
 
 The deployment process is designed for simplicity. Here's how to deploy your LLM Application:
