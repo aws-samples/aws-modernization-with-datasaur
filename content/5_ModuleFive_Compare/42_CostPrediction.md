@@ -18,4 +18,4 @@ The cost prediction will **calculate the cost based on your available prompt tem
 **View Prediction Details**
 
 Below we have an example of how much it will cost to utilize Llama 3b from Amazon Bedrock. Note the cost prediction breaks down multiple factors for the estimation including tokens, context, prompt, and more.
-![prediction details](/images/predictiondetails.png)
+![prediction details](/images/predictiondetails1.png)

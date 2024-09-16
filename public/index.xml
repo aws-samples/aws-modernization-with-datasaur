@@ -61,7 +61,7 @@
       <link>//localhost:1313/5_modulefive_compare/43_deployingllm.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/5_modulefive_compare/43_deployingllm.html</guid>
-      <description>Deploying the LLM Once you&amp;rsquo;ve crafted the perfect LLM configuration within the Playground, you can seamlessly transition it into a real-world application.&#xA;This configured Playground environment translates to your LLM Application. LLM Labs empowers you to effortlessly deploy your LLM Application, making it accessible via API for integration into your workflows.&#xA;Deployment Page&#xA;The deployment process is designed for simplicity. Here&amp;rsquo;s how to deploy your LLM Application:&#xA;Navigate to the Deployment Page: Within the LLM Playground, locate the dedicated deployment section.</description>
+      <description>Deploying the LLM Once you&amp;rsquo;ve crafted the perfect LLM configuration within the Sandbox, you can seamlessly transition it into a real-world application.&#xA;This configured Sandbox environment translates to your LLM Application. LLM Labs empowers you to effortlessly deploy your LLM Application, making it accessible via API for integration into your workflows.&#xA;Deployment Page&#xA;The deployment process is designed for simplicity. Here&amp;rsquo;s how to deploy your LLM Application:&#xA;Navigate to the Deployment Page: Within the Sandbox, locate the dedicated deployment section.</description>
     </item>
     <item>
       <title>Knowledge Base</title>
