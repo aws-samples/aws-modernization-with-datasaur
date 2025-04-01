@@ -3,7 +3,7 @@
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.128.2">
+    <meta name="generator" content="Hugo 0.145.0">
     <meta name="description" content="AWS Modernization Workshop">
 <meta name="author" content="James Bland">
 
@@ -12,18 +12,18 @@
     <title>Partner Setup Instructions :: Event Engine Setup</title>
 
     
-    <link href="/css/nucleus.css?1726119345" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1726119345" rel="stylesheet">
-    <link href="/css/hybrid.css?1726119345" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1726119345" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1726119345" rel="stylesheet">
-    <link href="/css/auto-complete.css?1726119345" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1726119345" rel="stylesheet">
-    <link href="/css/theme.css?1726119345" rel="stylesheet">
-    <link href="/css/tabs.css?1726119345" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1726119345" rel="stylesheet">
+    <link href="/css/nucleus.css?1743529582" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1743529582" rel="stylesheet">
+    <link href="/css/hybrid.css?1743529582" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1743529582" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1743529582" rel="stylesheet">
+    <link href="/css/auto-complete.css?1743529582" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1743529582" rel="stylesheet">
+    <link href="/css/theme.css?1743529582" rel="stylesheet">
+    <link href="/css/tabs.css?1743529582" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1743529582" rel="stylesheet">
     
-    <link href="/css/theme-mine.css?1726119345" rel="stylesheet">
+    <link href="/css/theme-mine.css?1743529582" rel="stylesheet">
     
     
 
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1726119345"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1726119345"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1743529582"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1743529582"></script>
 <script type="text/javascript">
     
         var baseurl = "\/\/localhost:1313\/\/ee";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1726119345"></script>
+<script type="text/javascript" src="/js/search.js?1743529582"></script>
 
     
   </div>
@@ -392,24 +392,24 @@
         
 
 
-<h1 id="partner-setup-instructions----modify-this-heading---">Partner Setup Instructions <!-- raw HTML omitted --></h1>
-<h2 id="submodule-one-heading----modify-this-subheading---">Submodule One Heading <!-- raw HTML omitted --></h2>
+<h1 id="partner-setup-instructions">Partner Setup Instructions </h1>
+<h2 id="submodule-one-heading">Submodule One Heading </h2>
 <p>This paragraph block should be an introduction to the submodule.</p>
-<h3 id="submodule-one-subheading----modify-this-subheading---">Submodule One Subheading <!-- raw HTML omitted --></h3>
+<h3 id="submodule-one-subheading">Submodule One Subheading </h3>
 <p>This paragraph block should be utilized to start the submodule. <!-- raw HTML omitted --></p>
 
 <div class="notices info" ><!-- raw HTML omitted -->
 </div>
 
-<h3 id="next-section-or-conclusion-heading----modify-this-heading---">Next Section OR Conclusion Heading <!-- raw HTML omitted --></h3>
+<h3 id="next-section-or-conclusion-heading">Next Section OR Conclusion Heading </h3>
 <p>This paragraph block can be utilized to lead into the next section of the workshop (which might be a conclusion) or be a conclusion itself.</p>
 <h4 id="example-guidance-content-below">Example Guidance Content Below</h4>
-<h1 id="do-you-require-attendees-to-sign-up-for-things----modify-this-heading---">Do you require attendees to sign up for things? <!-- raw HTML omitted --></h1>
-<h3 id="introduction----modify-this-heading---">Introduction <!-- raw HTML omitted --></h3>
+<h1 id="do-you-require-attendees-to-sign-up-for-things">Do you require attendees to sign up for things? </h1>
+<h3 id="introduction">Introduction </h3>
 <p>In this section, we are going to discuss tasks and concepts like retrieving access tokens and other configurations within some integration services.</p>
-<h3 id="docker-hub----modify-this-heading---">Docker Hub <!-- raw HTML omitted --></h3>
+<h3 id="docker-hub">Docker Hub </h3>
 <p>Docker Hub is a service provided by Docker for finding and sharing container images with your team. It is the world’s largest repository of container images with an array of content sources including container community developers, open source projects and independent software vendors (ISV) building and distributing their code in containers.</p>
-<h3 id="create-a-docker-hub-access-token----modify-this-heading---">Create a Docker Hub Access Token <!-- raw HTML omitted --></h3>
+<h3 id="create-a-docker-hub-access-token">Create a Docker Hub Access Token </h3>
 <p>The pipeline will package the application into a Docker image. It then pushes that image a public Docker Hub image repository so that it will be available to the deployment segment of the pipeline. To push or upload the newly-built Docker image, the pipeline will need an access token to authorize transaction on your Docker Hub account. You will need to create a new access token (<a href="https://docs.docker.com/docker-hub/access-tokens/" target="_blank">https://docs.docker.com/docker-hub/access-tokens/</a>) and store it for use in later modules. To create your new access tokens:</p>
 <pre><code>Log in to hub.docker.com
 Click your username in the top right corner and select Account Settings
@@ -419,9 +419,9 @@ Copy the token that appears on the screen and record it in a safe location for u
 </code></pre>
 <p>Warning: Docker Hub credentials and access tokens must be protected and not shared with unauthorized parties to prevent exposure and unauthorized access.</p>
 <p>Now that you have created and safely recorded your new access token, let’s move to the next section and create a new Snyk Access token.</p>
-<h3 id="snyk----modify-this-heading---">Snyk <!-- raw HTML omitted --></h3>
+<h3 id="snyk">Snyk </h3>
 <p>Snyk is an open source security platform designed to help software-driven businesses enhance developer security. Snyk’s dependency scanner makes it the only solution that seamlessly and proactively finds, prioritizes, and fixes vulnerabilities and license violations in open source dependencies and container images.</p>
-<h3 id="create-snyk-access-token----modify-this-heading---">Create Snyk Access Token <!-- raw HTML omitted --></h3>
+<h3 id="create-snyk-access-token">Create Snyk Access Token </h3>
 <pre><code>Visit your Snyk account (Account Settings &gt; API Token section) (https://app.snyk.io/account)
 In the KEY field, select click to show, then select and copy your API token from the field
 Paste the token that appears on the screen in a safe location for use in future modules
@@ -429,10 +429,10 @@ Paste the token that appears on the screen in a safe location for use in future 
 <p>Warning: Your Snyk access token must be protected and not shared with unauthorized parties to prevent exposure and unauthorized access.</p>
 <p>You can read more about Snyk Access Token from their docs here.</p>
 <p>Great, you have created and safely stored your newly created Snyk access token, Now, let’s create the Terraform Cloud access token.</p>
-<h3 id="terraform-cloud----modify-this-heading---">Terraform Cloud <!-- raw HTML omitted --></h3>
+<h3 id="terraform-cloud">Terraform Cloud </h3>
 <p>Terraform Cloud is an application that helps teams use Terraform together. It manages Terraform runs in a consistent and reliable environment, and includes easy access to shared state and secret data, access controls for approving changes to infrastructure, a private registry for sharing Terraform modules, detailed policy controls for governing the contents of Terraform configurations, and more.</p>
 <p>You will be using Terraform Cloud to store the Terraform state of the infrastructures your pipeline will provision and deploy using Terraform in future modules.</p>
-<h3 id="create-terraform-cloud-access-token----modify-this-heading---">Create Terraform Cloud Access Token <!-- raw HTML omitted --></h3>
+<h3 id="create-terraform-cloud-access-token">Create Terraform Cloud Access Token </h3>
 <pre><code>Create a `[Terraform Cloud ](https://app.terraform.io/signup/account)` account
 Create a new '[Terraform Cloud organization ] (https://learn.hashicorp.com/terraform/cloud-getting-started/signup#create-your-organization)'
 Create a new '[Terraform Cloud workspace ] (https://learn.hashicorp.com/terraform/cloud-getting-started/create-workspace)' named: arm-aws-ecs
@@ -618,19 +618,19 @@ In the User Settings section, Create a new '[Terraform API token] (https://www.t
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1726119345"></script>
-    <script src="/js/perfect-scrollbar.min.js?1726119345"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1726119345"></script>
-    <script src="/js/jquery.sticky.js?1726119345"></script>
-    <script src="/js/featherlight.min.js?1726119345"></script>
-    <script src="/js/highlight.pack.js?1726119345"></script>
+    <script src="/js/clipboard.min.js?1743529582"></script>
+    <script src="/js/perfect-scrollbar.min.js?1743529582"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1743529582"></script>
+    <script src="/js/jquery.sticky.js?1743529582"></script>
+    <script src="/js/featherlight.min.js?1743529582"></script>
+    <script src="/js/highlight.pack.js?1743529582"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1726119345"></script>
-    <script src="/js/learn.js?1726119345"></script>
-    <script src="/js/hugo-learn.js?1726119345"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1743529582"></script>
+    <script src="/js/learn.js?1743529582"></script>
+    <script src="/js/hugo-learn.js?1743529582"></script>
     
         
-            <script src="/mermaid/mermaid.js?1726119345"></script>
+            <script src="/mermaid/mermaid.js?1743529582"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

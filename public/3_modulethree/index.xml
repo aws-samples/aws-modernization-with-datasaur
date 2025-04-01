@@ -12,28 +12,28 @@
       <link>//localhost:1313/3_modulethree/31_explorethemodels.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/3_modulethree/31_explorethemodels.html</guid>
-      <description>Explore the Models Navigate to the Models page under LLM Labs menu. Here you can see a lot of models that you can use.</description>
+      <description>&lt;h1 id=&#34;explore-the-models&#34;&gt;Explore the Models &lt;/h1&gt;&#xA;&lt;p&gt;Navigate to the &lt;strong&gt;Models&lt;/strong&gt; page under LLM Labs menu.&#xA;&lt;img src=&#34;//localhost:1313/images/explore.png&#34; alt=&#34;Explore&#34;&gt;&#xA;Here you can see a lot of models that you can use.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Integrating LLMs Provider</title>
       <link>//localhost:1313/3_modulethree/32_integrating.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/3_modulethree/32_integrating.html</guid>
-      <description>Integrating LLMs Provider You can also integrate into several LLMs providers such as Amazon SageMaker JumpStart, OpenAI, and Azure OpenAI by clicking the Manage providers button.&#xA;To integrate the LLMs provider, you will need to set up and add their providers credentials in Datasaur. Once the provider is integrated, you can deploy and use their own models in Datasaur. Deploy the models After integrating the LLMs provider, you can deploy your own model in Datasaur.</description>
+      <description>&lt;h1 id=&#34;integrating-llms-provider&#34;&gt;Integrating LLMs Provider &lt;/h1&gt;&#xA;&lt;p&gt;You can also integrate into several LLMs providers such as Amazon SageMaker JumpStart, OpenAI, and Azure OpenAI by clicking the Manage providers button.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/manage.png&#34; alt=&#34;Manage&#34;&gt;&#xA;To integrate the LLMs provider, you will need to set up and add their providers credentials in Datasaur.&#xA;&lt;img src=&#34;//localhost:1313/images/credentials.png&#34; alt=&#34;Credentials&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Once the provider is integrated, you can deploy and use their own models in Datasaur.&#xA;&lt;img src=&#34;//localhost:1313/images/exploremodels.png&#34; alt=&#34;Explore Models&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;deploy-the-models&#34;&gt;Deploy the models&lt;/h3&gt;&#xA;&lt;p&gt;After integrating the LLMs provider, you can deploy your own model in Datasaur. To deploy the model, click on &amp;lsquo;Deploy model&amp;rsquo;. The Deploy model dialog will be shown. In this dialog, you need to input your specific endpoint name.&#xA;&lt;img src=&#34;//localhost:1313/images/deploymodel.png&#34; alt=&#34;Deploy Model&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Models</title>
       <link>//localhost:1313/3_modulethree/33_mymodels.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/3_modulethree/33_mymodels.html</guid>
-      <description>My Models The My Models page allows you to view all deployed models and provides functionality for deploying and undeploying models.&#xA;By default, Datasaur already provides you with Direct Access LLMs that are ready to use on this My models page. Every new model that you deploy in the LLMs providers will be synced to Datasaur, and you can use it right away in Datasaur. If the models you just deployed haven&amp;rsquo;t appeared on My models page, you can click the Sync models button.</description>
+      <description>&lt;h1 id=&#34;my-models&#34;&gt;My Models &lt;/h1&gt;&#xA;&lt;p&gt;The &lt;strong&gt;My Models&lt;/strong&gt; page allows you to view all deployed models and provides functionality for deploying and undeploying models.&lt;/p&gt;&#xA;&lt;p&gt;By default, Datasaur already provides you with Direct Access LLMs that are ready to use on this My models page.&#xA;&lt;img src=&#34;//localhost:1313/images/mymodels.png&#34; alt=&#34;mymodels&#34;&gt;&#xA;Every new model that you deploy in the LLMs providers will be synced to Datasaur, and you can use it right away in Datasaur. If the models you just deployed haven&amp;rsquo;t appeared on &lt;strong&gt;My models&lt;/strong&gt; page, you can click the &lt;strong&gt;Sync models&lt;/strong&gt; button.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Disconnect the LLMs provider</title>
       <link>//localhost:1313/3_modulethree/34_disconnect.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/3_modulethree/34_disconnect.html</guid>
-      <description>Disconnect the LLMs Provider You can disconnect the LLMs provider by clicking the Manage providers button. The Manage providers dialog will be shown, and you can see the providers that you have already connected.&#xA;Click the See details button, and you will see the Disconnect button in the bottom left of the dialog.&#xA;Once you’ve clicked the Disconnect button, the providers will be disconnected from your workspace.</description>
+      <description>&lt;h1 id=&#34;disconnect-the-llms-provider&#34;&gt;Disconnect the LLMs Provider &lt;/h1&gt;&#xA;&lt;p&gt;You can disconnect the LLMs provider by clicking the Manage providers button. The Manage providers dialog will be shown, and you can see the providers that you have already connected.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/disconnect1.png&#34; alt=&#34;disconnect1&#34;&gt;&#xA;Click the See details button, and you will see the Disconnect button in the bottom left of the dialog.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/disconnect2.png&#34; alt=&#34;disconnect2&#34;&gt;&#xA;Once you’ve clicked the Disconnect button, the providers will be disconnected from your workspace.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.128.2">
+    <meta name="generator" content="Hugo 0.145.0">
     <meta name="description" content="AWS Modernization Workshop">
 <meta name="author" content="James Bland">
 
@@ -12,18 +12,18 @@
     <title>Hugo Framework and Markdown :: Event Engine Setup</title>
 
     
-    <link href="/css/nucleus.css?1726119345" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1726119345" rel="stylesheet">
-    <link href="/css/hybrid.css?1726119345" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1726119345" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1726119345" rel="stylesheet">
-    <link href="/css/auto-complete.css?1726119345" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1726119345" rel="stylesheet">
-    <link href="/css/theme.css?1726119345" rel="stylesheet">
-    <link href="/css/tabs.css?1726119345" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1726119345" rel="stylesheet">
+    <link href="/css/nucleus.css?1743529582" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1743529582" rel="stylesheet">
+    <link href="/css/hybrid.css?1743529582" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1743529582" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1743529582" rel="stylesheet">
+    <link href="/css/auto-complete.css?1743529582" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1743529582" rel="stylesheet">
+    <link href="/css/theme.css?1743529582" rel="stylesheet">
+    <link href="/css/tabs.css?1743529582" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1743529582" rel="stylesheet">
     
-    <link href="/css/theme-mine.css?1726119345" rel="stylesheet">
+    <link href="/css/theme-mine.css?1743529582" rel="stylesheet">
     
     
 
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1726119345"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1726119345"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1743529582"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1743529582"></script>
 <script type="text/javascript">
     
         var baseurl = "\/\/localhost:1313\/\/ee";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1726119345"></script>
+<script type="text/javascript" src="/js/search.js?1743529582"></script>
 
     
   </div>
@@ -392,7 +392,7 @@
 <h3 id="setting-up-the-workshop-aws-hosted-or-self-paced">Setting Up The Workshop: AWS Hosted Or Self-paced</h3>
 <p>By utilizing the Hugo language localization settings, directing the workshop towards a specific setup can be simplified. The <code>Language</code> setting in the <code>config.toml</code> file will allow you to distinguish between having one option or both. Commenting out one of the languages will hide all files that are related to that setup. By default, only the self-guided setup will be enabled. To enable switching, set <code>disableLanguageSwitchingButton</code> to <code>false</code> in the <code>config.toml</code>. If you want to have only the Event Engine setup, set the <code>defaultContentLanguage</code> at the top of the <code>config.toml</code> file to <code>ee</code>.</p>
 <h3 id="the-entry-point-of-the-workshop-and-naming-conventions">The Entry Point Of The Workshop And Naming Conventions</h3>
-<p>All modifications should be done to files in the <code>content</code> folder. <code>_index.md</code> serves as the main entry point to your workshop. Adding modules can be done utilizing the format of <code>#_title</code> as a folder within <code>content</code>. By adding a number value to the title, this helps to keep the files structured in parity with the content of the workshop. A good practice for file naming is to have the folder be the module number and the submodule numbers add to that number reflecting their order. For example, the first module is <code>1_ModuleOne</code> and the submodules would be <code>11_SubmoduleOne</code>, <code>12_SubmoduleTwo</code>, and so forth. <!-- raw HTML omitted --> <!-- raw HTML omitted -->
+<p>All modifications should be done to files in the <code>content</code> folder. <code>_index.md</code> serves as the main entry point to your workshop. Adding modules can be done utilizing the format of <code>#_title</code> as a folder within <code>content</code>. By adding a number value to the title, this helps to keep the files structured in parity with the content of the workshop. A good practice for file naming is to have the folder be the module number and the submodule numbers add to that number reflecting their order. For example, the first module is <code>1_ModuleOne</code> and the submodules would be <code>11_SubmoduleOne</code>, <code>12_SubmoduleTwo</code>, and so forth. <!-- raw HTML omitted --> 
 To ensure the modules and submodules follow the correct structure order, adjust the &ldquo;weight&rdquo; value in the heading of the file to reflect the order you wish to use. Three module examples are included in this template with the second being split based upon the method of setup. The same rules apply for submodules. <code>_index.md</code> will be the entry point of that module. Submodules should be named with the format of <code>{module number}{weight}_{title}.{language}.md</code>. For example, <code>11_Foreword.md</code> would be the first submodule of module one in the default language/setup. <code>31_PartnerSetup.ee.md</code> would be the first submodule of module 3 in the EventEngine language/setup.</p>
 <h3 id="working-with-hugo-markdown-and-shortcode">Working With Hugo Markdown and Shortcode</h3>
 <p>The following links will supply you with all the reference documentation about Hugo markdown. For more experienced developers, inline HTML is also an option to add more customization. For example <code>&lt;p style='text-align: left;'&gt;</code> inline will allow you to adjust your text placement.</p>
@@ -410,7 +410,7 @@ To ensure the modules and submodules follow the correct structure order, adjust 
 <h3 id="adding-images-and-static-media">Adding Images and Static Media</h3>
 <p>Any images and static media to be included in the workshop need to be placed in the <code>static/images</code> folder. The format to display an image is as follows: <code>![Alternate Text](/images/imagename.jpg)</code> <!-- raw HTML omitted --></p>
 <p>For example, the markdown for this dog is <code>![An adorable puppy](/images/dog.jpg)</code> and the image is in the <code>static/images</code> folder. <!-- raw HTML omitted -->
-<img alt="An adorable puppy" src="/images/dog.jpg"></p>
+<img src="/images/dog.jpg" alt="An adorable puppy"></p>
 <h3 id="creating-links">Creating Links</h3>
 <p>The format for creating links is <code>[Link Display Text](http://example.com)</code>. For example, this link <a href="https://gohugo.io/about/what-is-hugo/" target="_blank">Hugo Framework</a> was created using <code>[Hugo Framework](https://gohugo.io/about/what-is-hugo/)</code>.</p>
 <h3 id="the-more-menu-section">The &ldquo;More&rdquo; Menu Section</h3>
@@ -595,19 +595,19 @@ To ensure the modules and submodules follow the correct structure order, adjust 
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1726119345"></script>
-    <script src="/js/perfect-scrollbar.min.js?1726119345"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1726119345"></script>
-    <script src="/js/jquery.sticky.js?1726119345"></script>
-    <script src="/js/featherlight.min.js?1726119345"></script>
-    <script src="/js/highlight.pack.js?1726119345"></script>
+    <script src="/js/clipboard.min.js?1743529582"></script>
+    <script src="/js/perfect-scrollbar.min.js?1743529582"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1743529582"></script>
+    <script src="/js/jquery.sticky.js?1743529582"></script>
+    <script src="/js/featherlight.min.js?1743529582"></script>
+    <script src="/js/highlight.pack.js?1743529582"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1726119345"></script>
-    <script src="/js/learn.js?1726119345"></script>
-    <script src="/js/hugo-learn.js?1726119345"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1743529582"></script>
+    <script src="/js/learn.js?1743529582"></script>
+    <script src="/js/hugo-learn.js?1743529582"></script>
     
         
-            <script src="/mermaid/mermaid.js?1726119345"></script>
+            <script src="/mermaid/mermaid.js?1743529582"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

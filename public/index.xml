@@ -12,91 +12,91 @@
       <link>//localhost:1313/1_moduleone/11_aboutdatasaur.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/1_moduleone/11_aboutdatasaur.html</guid>
-      <description>About Datasaur Mission At Datasaur, our mission is to transform the way organizations label data for NLP projects and configure LLMs specifically for their business. We aim to provide the most efficient, accurate, and secured data annotation solutions to fuel the NLP and LLM revolution.&#xA;Our Story Datasaur was founded by Ivan Lee, who recognized the growing need for high-quality data labeling in the AI and machine learning industries. With a background in technology and a passion for innovation, Ivan set out to create a platform that would address the challenges of data annotation.</description>
+      <description>&lt;h1 id=&#34;about-datasaur&#34;&gt;About Datasaur &lt;/h1&gt;&#xA;&lt;h2 id=&#34;mission&#34;&gt;Mission &lt;/h2&gt;&#xA;&lt;p&gt;At Datasaur, our mission is to transform the way organizations label data for NLP projects and configure LLMs specifically for their business. We aim to provide the most efficient, accurate, and secured data annotation solutions to fuel the NLP and LLM revolution.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-story&#34;&gt;Our Story&lt;/h2&gt;&#xA;&lt;p&gt;Datasaur was founded by Ivan Lee, who recognized the growing need for high-quality data labeling in the AI and machine learning industries. With a background in technology and a passion for innovation, Ivan set out to create a platform that would address the challenges of data annotation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Explore the Models</title>
       <link>//localhost:1313/3_modulethree/31_explorethemodels.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/3_modulethree/31_explorethemodels.html</guid>
-      <description>Explore the Models Navigate to the Models page under LLM Labs menu. Here you can see a lot of models that you can use.</description>
+      <description>&lt;h1 id=&#34;explore-the-models&#34;&gt;Explore the Models &lt;/h1&gt;&#xA;&lt;p&gt;Navigate to the &lt;strong&gt;Models&lt;/strong&gt; page under LLM Labs menu.&#xA;&lt;img src=&#34;//localhost:1313/images/explore.png&#34; alt=&#34;Explore&#34;&gt;&#xA;Here you can see a lot of models that you can use.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Getting Started</title>
       <link>//localhost:1313/4_modulefour/41_gettingstarted.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/4_modulefour/41_gettingstarted.html</guid>
-      <description>Getting Started You can visit the Vector stores page by selecting the Vector stores option located in the LLM Labs sidebar.</description>
+      <description>&lt;h1 id=&#34;getting-started&#34;&gt;Getting Started &lt;/h1&gt;&#xA;&lt;p&gt;You can visit the Vector stores page by selecting the Vector stores option located in the LLM Labs sidebar.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/gettingstarted.png&#34; alt=&#34;Getting Started&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Getting Started with the Sandbox</title>
       <link>//localhost:1313/5_modulefive_compare/41_gettingstarted.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/5_modulefive_compare/41_gettingstarted.html</guid>
-      <description>Getting Started with the Sandbox Step 1: Create Your Sandbox Create Sandbox&#xA;Click on &amp;ldquo;Create Sandbox&amp;rdquo; to establish your dedicated workspace. You can assign a descriptive name to your sandbox for easy identification. Step 2: Configure the Sandbox Application Configure the Application&#xA;Access the &amp;ldquo;Models Configuration&amp;rdquo; section. You can adjust various parameters for the connected LLM model, such as temperature or token settings. Here we will test multiple Amazon Bedrock models to discover the best performing and cost efficient model.</description>
+      <description>&lt;h1 id=&#34;getting-started-with-the-sandbox&#34;&gt;Getting Started with the Sandbox &lt;/h1&gt;&#xA;&lt;h2 id=&#34;step-1-create-your-sandbox&#34;&gt;Step 1: Create Your Sandbox&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/step1.png&#34; alt=&#34;Create Sandbox&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Create Sandbox&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Click on &amp;ldquo;Create Sandbox&amp;rdquo; to establish your dedicated workspace.&lt;/li&gt;&#xA;&lt;li&gt;You can assign a descriptive name to your sandbox for easy identification.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;step-2-configure-the-sandbox-application&#34;&gt;Step 2: Configure the Sandbox Application&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/step2.png&#34; alt=&#34;Configure Sandbox&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Configure the Application&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Access the &amp;ldquo;Models Configuration&amp;rdquo; section.&lt;/li&gt;&#xA;&lt;li&gt;You can adjust various parameters for the connected LLM model, such as temperature or token settings.&lt;/li&gt;&#xA;&lt;li&gt;Here we will test multiple Amazon Bedrock models to discover the best performing and cost efficient model.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Experiment with different configurations to observe their impact on the model&amp;rsquo;s responses.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cost Prediction Calculation</title>
       <link>//localhost:1313/5_modulefive_compare/42_costprediction.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/5_modulefive_compare/42_costprediction.html</guid>
-      <description>Cost Prediction Calculation Overview The Cost Prediction for Inference feature aims to enhance user experience by providing transparency and predictability in terms of the costs incurred during language model inference. Users can now estimate the financial implications of their inferencing activities within LLM Lab.&#xA;When looking at the responses that were returned from your prompt, you’ll see a cost indication for each return. Cost Prediction Calculation&#xA;The cost prediction will calculate the cost based on your available prompt template, the more prompt template you have the cost will be more expensive.</description>
+      <description>&lt;h1 id=&#34;cost-prediction-calculation&#34;&gt;Cost Prediction Calculation &lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Cost Prediction for Inference feature aims to enhance user experience by providing transparency and predictability in terms of the costs incurred during language model inference. Users can now estimate the financial implications of their inferencing activities within LLM Lab.&lt;/p&gt;&#xA;&lt;p&gt;When looking at the responses that were returned from your prompt, you’ll see a cost indication for each return.&#xA;&lt;img src=&#34;//localhost:1313/images/costprediction1.png&#34; alt=&#34;cost prediction 1&#34;&gt;&#xA;&lt;em&gt;Cost Prediction Calculation&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;The cost prediction will &lt;strong&gt;calculate the cost based on your available prompt template,&lt;/strong&gt; the more prompt template you have the cost will be more expensive.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Integrating LLMs Provider</title>
       <link>//localhost:1313/3_modulethree/32_integrating.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/3_modulethree/32_integrating.html</guid>
-      <description>Integrating LLMs Provider You can also integrate into several LLMs providers such as Amazon SageMaker JumpStart, OpenAI, and Azure OpenAI by clicking the Manage providers button.&#xA;To integrate the LLMs provider, you will need to set up and add their providers credentials in Datasaur. Once the provider is integrated, you can deploy and use their own models in Datasaur. Deploy the models After integrating the LLMs provider, you can deploy your own model in Datasaur.</description>
+      <description>&lt;h1 id=&#34;integrating-llms-provider&#34;&gt;Integrating LLMs Provider &lt;/h1&gt;&#xA;&lt;p&gt;You can also integrate into several LLMs providers such as Amazon SageMaker JumpStart, OpenAI, and Azure OpenAI by clicking the Manage providers button.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/manage.png&#34; alt=&#34;Manage&#34;&gt;&#xA;To integrate the LLMs provider, you will need to set up and add their providers credentials in Datasaur.&#xA;&lt;img src=&#34;//localhost:1313/images/credentials.png&#34; alt=&#34;Credentials&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Once the provider is integrated, you can deploy and use their own models in Datasaur.&#xA;&lt;img src=&#34;//localhost:1313/images/exploremodels.png&#34; alt=&#34;Explore Models&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;deploy-the-models&#34;&gt;Deploy the models&lt;/h3&gt;&#xA;&lt;p&gt;After integrating the LLMs provider, you can deploy your own model in Datasaur. To deploy the model, click on &amp;lsquo;Deploy model&amp;rsquo;. The Deploy model dialog will be shown. In this dialog, you need to input your specific endpoint name.&#xA;&lt;img src=&#34;//localhost:1313/images/deploymodel.png&#34; alt=&#34;Deploy Model&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vector Store Creation</title>
       <link>//localhost:1313/4_modulefour/42_vectorestorecreation.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/4_modulefour/42_vectorestorecreation.html</guid>
-      <description>Vector Store Creation Click the Create new vector store button.&#xA;Configure your vector store settings.&#xA;The configurations are:&#xA;Name: Your preferred vector store name&#xA;Vector store provider: We support two types of vector store provider:&#xA;Datasaur: Utilizing the Datasaur provider means Datasaur will handle the embedding process for you.&#xA;External: Choosing the External provider allows you to handle the embedding process independently.&#xA;Embedding model: Your preferred embedding models. Several embedding models that we support by default are:</description>
+      <description>&lt;h1 id=&#34;vector-store-creation&#34;&gt;Vector Store Creation &lt;/h1&gt;&#xA;&lt;p&gt;Click the &lt;strong&gt;Create new vector store&lt;/strong&gt; button.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/create.png&#34; alt=&#34;Create New Vector Store&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Configure your vector store settings.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/settings.png&#34; alt=&#34;Vector Store settings&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The configurations are:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Name:&lt;/strong&gt; Your preferred vector store name&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Vector store provider:&lt;/strong&gt; We support two types of vector store provider:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Datasaur:&lt;/strong&gt; Utilizing the Datasaur provider means Datasaur will handle the embedding process for you.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;External:&lt;/strong&gt; Choosing the External provider allows you to handle the embedding process independently.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Deploying the LLM</title>
       <link>//localhost:1313/5_modulefive_compare/43_deployingllm.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/5_modulefive_compare/43_deployingllm.html</guid>
-      <description>Deploying the LLM Once you&amp;rsquo;ve crafted the perfect LLM configuration within the Sandbox, you can seamlessly transition it into a real-world application.&#xA;This configured Sandbox environment translates to your LLM Application. LLM Labs empowers you to effortlessly deploy your LLM Application, making it accessible via API for integration into your workflows.&#xA;Deployment Page&#xA;The deployment process is designed for simplicity. Here&amp;rsquo;s how to deploy your LLM Application:&#xA;Navigate to the Deployment Page: Within the Sandbox, locate the dedicated deployment section.</description>
+      <description>&lt;h1 id=&#34;deploying-the-llm&#34;&gt;Deploying the LLM &lt;/h1&gt;&#xA;&lt;p&gt;Once you&amp;rsquo;ve crafted the perfect LLM configuration within the Sandbox, you can seamlessly transition it into a real-world application.&lt;/p&gt;&#xA;&lt;p&gt;This configured Sandbox environment translates to your LLM Application. LLM Labs empowers you to effortlessly deploy your LLM Application, making it accessible via API for integration into your workflows.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/deployed1.png&#34; alt=&#34;Deployed&#34;&gt;&#xA;&lt;em&gt;Deployment Page&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;The deployment process is designed for simplicity. Here&amp;rsquo;s how to deploy your LLM Application:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Navigate to the Deployment Page:&lt;/strong&gt; Within the Sandbox, locate the dedicated deployment section.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Choose Your LLM Application:&lt;/strong&gt; Select the specific LLM Application (configured Sandbox) you want to deploy.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Deploy and Access:&lt;/strong&gt; Initiate the deployment process. Upon successful completion, you&amp;rsquo;ll be able to access your deployed LLM Application through various programming languages like cURL, Python, and Typescript, allowing you to integrate it into your development projects.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Knowledge Base</title>
       <link>//localhost:1313/4_modulefour/43_knowledgebase.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/4_modulefour/43_knowledgebase.html</guid>
-      <description>Knowledge Base Once the vector store is created, you can add your files for embedding by uploading them to the Knowledge Base. You can also add your files via the External Object Storage.&#xA;After you select the files, please click on the &amp;ldquo;Update Vector Store&amp;rdquo; button to initiate the embedding process. The embedding process might take some time, depending on the file size and the number of files.&#xA;After completing the embedding process, you can preview the files and use them to conduct Retrieval-Augmented Generation (RAG) in LLM Labs.</description>
+      <description>&lt;h1 id=&#34;knowledge-base&#34;&gt;Knowledge Base &lt;/h1&gt;&#xA;&lt;p&gt;Once the vector store is created, you can add your files for embedding by uploading them to the Knowledge Base. You can also add your files via the &lt;a href=&#34;https://docs.datasaur.ai/llm-projects/vector-store/external-object-storage&#34; target=&#34;_blank&#34;&gt;External Object Storage&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/kb1.png&#34; alt=&#34;kb1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;After you select the files, please click on the &amp;ldquo;Update Vector Store&amp;rdquo; button to initiate the embedding process. The embedding process might take some time, depending on the file size and the number of files.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/kb2.png&#34; alt=&#34;kb2&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Models</title>
       <link>//localhost:1313/3_modulethree/33_mymodels.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/3_modulethree/33_mymodels.html</guid>
-      <description>My Models The My Models page allows you to view all deployed models and provides functionality for deploying and undeploying models.&#xA;By default, Datasaur already provides you with Direct Access LLMs that are ready to use on this My models page. Every new model that you deploy in the LLMs providers will be synced to Datasaur, and you can use it right away in Datasaur. If the models you just deployed haven&amp;rsquo;t appeared on My models page, you can click the Sync models button.</description>
+      <description>&lt;h1 id=&#34;my-models&#34;&gt;My Models &lt;/h1&gt;&#xA;&lt;p&gt;The &lt;strong&gt;My Models&lt;/strong&gt; page allows you to view all deployed models and provides functionality for deploying and undeploying models.&lt;/p&gt;&#xA;&lt;p&gt;By default, Datasaur already provides you with Direct Access LLMs that are ready to use on this My models page.&#xA;&lt;img src=&#34;//localhost:1313/images/mymodels.png&#34; alt=&#34;mymodels&#34;&gt;&#xA;Every new model that you deploy in the LLMs providers will be synced to Datasaur, and you can use it right away in Datasaur. If the models you just deployed haven&amp;rsquo;t appeared on &lt;strong&gt;My models&lt;/strong&gt; page, you can click the &lt;strong&gt;Sync models&lt;/strong&gt; button.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Disconnect the LLMs provider</title>
       <link>//localhost:1313/3_modulethree/34_disconnect.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/3_modulethree/34_disconnect.html</guid>
-      <description>Disconnect the LLMs Provider You can disconnect the LLMs provider by clicking the Manage providers button. The Manage providers dialog will be shown, and you can see the providers that you have already connected.&#xA;Click the See details button, and you will see the Disconnect button in the bottom left of the dialog.&#xA;Once you’ve clicked the Disconnect button, the providers will be disconnected from your workspace.</description>
+      <description>&lt;h1 id=&#34;disconnect-the-llms-provider&#34;&gt;Disconnect the LLMs Provider &lt;/h1&gt;&#xA;&lt;p&gt;You can disconnect the LLMs provider by clicking the Manage providers button. The Manage providers dialog will be shown, and you can see the providers that you have already connected.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/disconnect1.png&#34; alt=&#34;disconnect1&#34;&gt;&#xA;Click the See details button, and you will see the Disconnect button in the bottom left of the dialog.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/disconnect2.png&#34; alt=&#34;disconnect2&#34;&gt;&#xA;Once you’ve clicked the Disconnect button, the providers will be disconnected from your workspace.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Search</title>
       <link>//localhost:1313/4_modulefour/44_search.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/4_modulefour/44_search.html</guid>
-      <description>Search The search function allows you to validate the effectiveness of your knowledge base in providing context. The search results are shown in chunks that follow the chunk size and overlap value you specified when creating the vector store. Each chunk will have a similarity score along with its source. A higher similarity score means the chunk content is more related to the given prompt.</description>
+      <description>&lt;h1 id=&#34;search&#34;&gt;Search &lt;/h1&gt;&#xA;&lt;p&gt;The search function allows you to validate the effectiveness of your knowledge base in providing context. The search results are shown in chunks that follow the chunk size and overlap value you specified when creating the vector store. Each chunk will have a similarity score along with its source. A higher similarity score means the chunk content is more related to the given prompt.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/search.png&#34; alt=&#34;search&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Activity</title>
       <link>//localhost:1313/4_modulefour/45_activity.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/4_modulefour/45_activity.html</guid>
-      <description>Activity The Activity feature logs all actions performed on your Vector stores, making it easier to track changes and actions. You can filter the activity based on member, file, file source, and date.</description>
+      <description>&lt;h1 id=&#34;activity&#34;&gt;Activity &lt;/h1&gt;&#xA;&lt;p&gt;The Activity feature logs all actions performed on your Vector stores, making it easier to track changes and actions. You can filter the activity based on member, file, file source, and date.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/activity.png&#34; alt=&#34;activity&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

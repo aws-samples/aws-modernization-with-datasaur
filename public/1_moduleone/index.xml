@@ -12,7 +12,7 @@
       <link>//localhost:1313/1_moduleone/11_aboutdatasaur.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/1_moduleone/11_aboutdatasaur.html</guid>
-      <description>About Datasaur Mission At Datasaur, our mission is to transform the way organizations label data for NLP projects and configure LLMs specifically for their business. We aim to provide the most efficient, accurate, and secured data annotation solutions to fuel the NLP and LLM revolution.&#xA;Our Story Datasaur was founded by Ivan Lee, who recognized the growing need for high-quality data labeling in the AI and machine learning industries. With a background in technology and a passion for innovation, Ivan set out to create a platform that would address the challenges of data annotation.</description>
+      <description>&lt;h1 id=&#34;about-datasaur&#34;&gt;About Datasaur &lt;/h1&gt;&#xA;&lt;h2 id=&#34;mission&#34;&gt;Mission &lt;/h2&gt;&#xA;&lt;p&gt;At Datasaur, our mission is to transform the way organizations label data for NLP projects and configure LLMs specifically for their business. We aim to provide the most efficient, accurate, and secured data annotation solutions to fuel the NLP and LLM revolution.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-story&#34;&gt;Our Story&lt;/h2&gt;&#xA;&lt;p&gt;Datasaur was founded by Ivan Lee, who recognized the growing need for high-quality data labeling in the AI and machine learning industries. With a background in technology and a passion for innovation, Ivan set out to create a platform that would address the challenges of data annotation.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

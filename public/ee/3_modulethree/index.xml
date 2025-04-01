@@ -12,7 +12,7 @@
       <link>//localhost:1313/ee/3_modulethree/31_partnersetup.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/ee/3_modulethree/31_partnersetup.html</guid>
-      <description>Partner Setup Instructions Submodule One Heading This paragraph block should be an introduction to the submodule.&#xA;Submodule One Subheading This paragraph block should be utilized to start the submodule. Next Section OR Conclusion Heading This paragraph block can be utilized to lead into the next section of the workshop (which might be a conclusion) or be a conclusion itself.&#xA;Example Guidance Content Below Do you require attendees to sign up for things?</description>
+      <description>&lt;h1 id=&#34;partner-setup-instructions&#34;&gt;Partner Setup Instructions &lt;/h1&gt;&#xA;&lt;h2 id=&#34;submodule-one-heading&#34;&gt;Submodule One Heading &lt;/h2&gt;&#xA;&lt;p&gt;This paragraph block should be an introduction to the submodule.&lt;/p&gt;&#xA;&lt;h3 id=&#34;submodule-one-subheading&#34;&gt;Submodule One Subheading &lt;/h3&gt;&#xA;&lt;p&gt;This paragraph block should be utilized to start the submodule. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&#xA;&lt;div class=&#34;notices info&#34; &gt;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h3 id=&#34;next-section-or-conclusion-heading&#34;&gt;Next Section OR Conclusion Heading &lt;/h3&gt;&#xA;&lt;p&gt;This paragraph block can be utilized to lead into the next section of the workshop (which might be a conclusion) or be a conclusion itself.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
