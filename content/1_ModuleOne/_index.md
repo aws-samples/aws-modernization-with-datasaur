@@ -41,7 +41,7 @@ What is a Vector DB? A Vector Store is a specialized database designed to store 
 
 ### Explore Models 
 
-Model Management is designed to streamline the process of selecting, using, and deploying LLM models. With a diverse range of over 200 foundation models at your disposal, you can find the perfect fit for your specific use case without the need for extensive training.
+Model Management is designed to streamline the process of selecting, using, and deploying LLM models. With a diverse range of over 250 foundation models at your disposal, you can find the perfect fit for your specific use case without the need for extensive training.
 
 ### Compare Models
 Sandbox is a key feature within LLM Labs, providing a user-friendly environment specifically designed for LLM experimentation. It allows you to:
