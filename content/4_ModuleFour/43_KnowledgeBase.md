@@ -1,18 +1,14 @@
 ---
-title: "Knowledge Base" # MODIFY THIS TITLE
+title: "Search" # MODIFY THIS TITLE
 chapter: true
 weight: 3 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES
 ---
 
-# Knowledge Base <!-- MODIFY THIS HEADING -->
-Once the vector store is created, you can add your files for embedding by uploading them to the Knowledge Base. You can also add your files via the [External Object Storage](https://docs.datasaur.ai/llm-projects/vector-store/external-object-storage).
+# Search <!-- MODIFY THIS HEADING -->
+Once you have uploaded your file(s) for your database and selected the embedding configurations, we can test whether the embedding is preferred. Select the Search tab.
 
-![kb1](/images/kb1.png) 
+![kb1](/images/healthysleep.png) 
 
-After you select the files, please click on the "Update Vector Store" button to initiate the embedding process. The embedding process might take some time, depending on the file size and the number of files.
+Type in a query and the search function allows you to validate the effectiveness of your knowledge base in providing context. The search results are shown in chunks that follow the chunk size and overlap value you specified. Each chunk will have a similarity score along with its source. A higher similarity score means the chunk content is more related to the given prompt.
 
-![kb2](/images/kb2.png) 
-
-After completing the embedding process, you can preview the files and use them to conduct Retrieval-Augmented Generation (RAG) in LLM Labs. In this example, we embed our sample "Patient Records," which will be used for the RAG process in LLM Labs.
-
-![kb3](/images/kb3.png) 
+![kbdemo](/images/kbdemo.png) 

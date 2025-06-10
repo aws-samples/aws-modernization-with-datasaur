@@ -5,10 +5,10 @@ weight: 1 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES
 ---
 
 # Getting Started <!-- MODIFY THIS HEADING -->
-You can visit the Vector stores page by selecting the Vector stores option located in the LLM Labs sidebar.
+You can visit the Knowledge Bases page by selecting the Knowledge Bases option located in the LLM Labs sidebar.
 
 
-![Getting Started](/images/gettingstarted.png) 
+![Getting Started](/images/kb.png) 
 
 
 

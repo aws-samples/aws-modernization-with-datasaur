@@ -12,18 +12,18 @@
     <title>Getting Started with the Sandbox :: English</title>
 
     
-    <link href="/css/nucleus.css?1749481867" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1749481867" rel="stylesheet">
-    <link href="/css/hybrid.css?1749481867" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1749481867" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1749481867" rel="stylesheet">
-    <link href="/css/auto-complete.css?1749481867" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1749481867" rel="stylesheet">
-    <link href="/css/theme.css?1749481867" rel="stylesheet">
-    <link href="/css/tabs.css?1749481867" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1749481867" rel="stylesheet">
+    <link href="/css/nucleus.css?1749599502" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1749599502" rel="stylesheet">
+    <link href="/css/hybrid.css?1749599502" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1749599502" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1749599502" rel="stylesheet">
+    <link href="/css/auto-complete.css?1749599502" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1749599502" rel="stylesheet">
+    <link href="/css/theme.css?1749599502" rel="stylesheet">
+    <link href="/css/tabs.css?1749599502" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1749599502" rel="stylesheet">
     
-    <link href="/css/theme-mine.css?1749481867" rel="stylesheet">
+    <link href="/css/theme-mine.css?1749599502" rel="stylesheet">
     
     
 
@@ -55,14 +55,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1749481867"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1749481867"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1749599502"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1749599502"></script>
 <script type="text/javascript">
     
         var baseurl = "\/\/localhost:1313\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1749481867"></script>
+<script type="text/javascript" src="/js/search.js?1749599502"></script>
 
     
   </div>
@@ -243,9 +243,9 @@
  
   
     
-      <li data-nav-id="/3_modulethree/33_mymodels.html" title="My Models" class="dd-item ">
+      <li data-nav-id="/3_modulethree/33_mymodels.html" title="Models Catalog" class="dd-item ">
         <a href="/3_modulethree/33_mymodels.html">
-        My Models
+        Models Catalog
         <i class="fas fa-check read-icon"></i>
         </a>
     </li>
@@ -292,13 +292,13 @@
  
   
     
-    <li data-nav-id="/4_modulefour.html" title="Vector Store" class="dd-item
+    <li data-nav-id="/4_modulefour.html" title="Knowledge Base" class="dd-item
         
         
         
         ">
       <a href="/4_modulefour.html">
-          Vector Store
+          Knowledge Base
           
             <i class="fas fa-check read-icon"></i>
           
@@ -342,9 +342,9 @@
  
   
     
-      <li data-nav-id="/4_modulefour/42_vectorestorecreation.html" title="Vector Store Creation" class="dd-item ">
+      <li data-nav-id="/4_modulefour/42_vectorestorecreation.html" title="Knowledge Base Creation" class="dd-item ">
         <a href="/4_modulefour/42_vectorestorecreation.html">
-        Vector Store Creation
+        Knowledge Base Creation
         <i class="fas fa-check read-icon"></i>
         </a>
     </li>
@@ -363,29 +363,8 @@
  
   
     
-      <li data-nav-id="/4_modulefour/43_knowledgebase.html" title="Knowledge Base" class="dd-item ">
+      <li data-nav-id="/4_modulefour/43_knowledgebase.html" title="Search" class="dd-item ">
         <a href="/4_modulefour/43_knowledgebase.html">
-        Knowledge Base
-        <i class="fas fa-check read-icon"></i>
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/4_modulefour/44_search.html" title="Search" class="dd-item ">
-        <a href="/4_modulefour/44_search.html">
         Search
         <i class="fas fa-check read-icon"></i>
         </a>
@@ -651,8 +630,11 @@
 <li>Click on &ldquo;Create Sandbox&rdquo; to establish your dedicated workspace.</li>
 <li>You can assign a descriptive name to your sandbox for easy identification.</li>
 </ul>
+<p>Select [+ Add Application], Applications are a configured LLM that you’ll be able to test against prompts and eventually deploy. You can create multiple Applications in the Sandbox and test them against the same prompt.</p>
+<p>Select from the list of deployed models for your Application.</p>
+<p><img src="/images/sandbox246.png" alt="Create Sandbox246"></p>
 <h2 id="step-2-configure-the-sandbox-application">Step 2: Configure the Sandbox Application</h2>
-<p><img src="/images/step2.png" alt="Configure Sandbox"></p>
+<p><img src="/images/hyperparamconfig.png" alt="Configure Sandbox"></p>
 <p>Configure the Application</p>
 <ul>
 <li>Access the &ldquo;Models Configuration&rdquo; section.</li>
@@ -660,27 +642,20 @@
 <li>Here we will test multiple Amazon Bedrock models to discover the best performing and cost efficient model.</li>
 </ul>
 <p>Experiment with different configurations to observe their impact on the model&rsquo;s responses.</p>
+<p>Make sure to attach the knowledge base you created to your Application to the LLM can reference your database.</p>
+<p><img src="/images/testyourapp.png" alt="Create testyour"></p>
 <h2 id="step-3-run-prompts">Step 3: Run Prompts</h2>
-<p><img src="/images/step3.png" alt="Run Prompts"></p>
+<p><img src="/images/prompt.png" alt="Run Prompts"></p>
 <ul>
 <li>Enter your desired prompt within the designated area.</li>
 <li>This prompt can be a question, a task instruction, or any text input you want the LLM model to process.</li>
 <li>Click &ldquo;Run&rdquo; to trigger the model&rsquo;s response based on your prompt.</li>
 </ul>
-<h3 id="rag-example-healthcare-assistant">RAG Example: Healthcare Assistant</h3>
-<p>Here is how Vector Store can streamline the development of a Retrieval-Augmented Generation (RAG) based Healthcare Assistant in LLM Labs:</p>
-<p>Create the <a href="https://docs.datasaur.ai/llm-projects/sandbox" target="_blank">Sandbox</a> with the User Instruction and System Instruction you&rsquo;ve prepared.</p>
-<p><img src="/images/healthcareassistant.png" alt="Healthcare Assistant"></p>
-<p>From the Vector stores dropdown, select the vector store you created.</p>
-<p><img src="/images/none.png" alt="none">
-<img src="/images/demo.png" alt="demo">
-<img src="/images/prompt1.png" alt="prompt1"></p>
-<p>You can then compare other models to your initial choice by selecting &ldquo;+ Add Application&rdquo;.</p>
-<p><img src="/images/addapplication.png" alt="Add Application"></p>
-<p>You can keep adding “applications” to test different LLMs against your prompt on the right side of your interface.</p>
-<p>Simply select: “Add Prompt” and then type your query/prompt while making sure all of your “applications” are selected.</p>
-<p>Once you select “Run All” – you will receive responses from all of the Amazon models, receiving their response, inference time, and estimated cost.</p>
-<p><img src="/images/compareall.png" alt="Compare models"></p>
+<p>Once you have run the prompt against one or more applications you’ll be able to read the output and the corresponding chunks used for the answer.</p>
+<p>You will also find the cost and inference team for each of your applications.</p>
+<p><img src="/images/prompt2.png" alt="Run Prompt2"></p>
+<p>You can also add files and a URL to your prompt.</p>
+<p><img src="/images/prompt3.png" alt="Run Prompt3"></p>
 
 
 <footer class="footline">
@@ -923,22 +898,6 @@
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -1032,19 +991,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1749481867"></script>
-    <script src="/js/perfect-scrollbar.min.js?1749481867"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1749481867"></script>
-    <script src="/js/jquery.sticky.js?1749481867"></script>
-    <script src="/js/featherlight.min.js?1749481867"></script>
-    <script src="/js/highlight.pack.js?1749481867"></script>
+    <script src="/js/clipboard.min.js?1749599502"></script>
+    <script src="/js/perfect-scrollbar.min.js?1749599502"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1749599502"></script>
+    <script src="/js/jquery.sticky.js?1749599502"></script>
+    <script src="/js/featherlight.min.js?1749599502"></script>
+    <script src="/js/highlight.pack.js?1749599502"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1749481867"></script>
-    <script src="/js/learn.js?1749481867"></script>
-    <script src="/js/hugo-learn.js?1749481867"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1749599502"></script>
+    <script src="/js/learn.js?1749599502"></script>
+    <script src="/js/hugo-learn.js?1749599502"></script>
     
         
-            <script src="/mermaid/mermaid.js?1749481867"></script>
+            <script src="/mermaid/mermaid.js?1749599502"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

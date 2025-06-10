@@ -8,13 +8,13 @@ weight: 4 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES
 You can disconnect the LLMs provider by clicking the Manage providers button. The Manage providers dialog will be shown, and you can see the providers that you have already connected.
 
 
-![disconnect1](/images/disconnect1.png) 
+![disconnect1](/images/disconnect1-1.png) 
 Click the See details button, and you will see the Disconnect button in the bottom left of the dialog.
 
-![disconnect2](/images/disconnect2.png) 
+![disconnect2](/images/disconnect2-1.png) 
 Once you’ve clicked the Disconnect button, the providers will be disconnected from your workspace.
 
-![disconnect3](/images/disconnect3.png) 
+
 
 {{% notice info %}}
 <p style='text-align: left;'>

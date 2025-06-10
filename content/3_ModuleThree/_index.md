@@ -4,9 +4,9 @@ chapter: true
 weight: 3
 ---
 
-# Explore Over 200 Models <!-- MODIFY THIS HEADING -->
+# Explore Over 250 Models <!-- MODIFY THIS HEADING -->
 
-With LLM Labs you can explore over 200 LLMs to help you compare and validate the right model for your project.
+With LLM Labs you can explore over 250 LLMs to help you compare and validate the right model for your project.
 
 
 

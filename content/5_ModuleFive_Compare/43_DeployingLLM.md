@@ -9,13 +9,17 @@ Once you've crafted the perfect LLM configuration within the Sandbox, you can se
 
 This configured Sandbox environment translates to your LLM Application. LLM Labs empowers you to effortlessly deploy your LLM Application, making it accessible via API for integration into your workflows.
 
-![Deployed](/images/deployed1.png) 
+Once you have decided on the LLM Application you would like to deploy select the rocket icon on the Application. 
+
+
+![Deployed](/images/deployed1-1.png) 
+
+After you named your deployed application, you’ll be brought to the deployed application page where you’ll be able to retrieve the API endpoint. You can call your LLM directly to your application
+
+![Deployed2](/images/deployed2.png) 
+
 *Deployment Page*
 
-The deployment process is designed for simplicity. Here's how to deploy your LLM Application:
+For future reference, you can go back to all of your previously deployed Applications by opening the left hand panel menu and selecting “Deployed Applications.” 
 
-- **Navigate to the Deployment Page:** Within the Sandbox, locate the dedicated deployment section.
-- **Choose Your LLM Application:** Select the specific LLM Application (configured Sandbox) you want to deploy.
-- **Deploy and Access:** Initiate the deployment process. Upon successful completion, you'll be able to access your deployed LLM Application through various programming languages like cURL, Python, and Typescript, allowing you to integrate it into your development projects.
-
-
+![Deployed3](/images/deployed3.png) 

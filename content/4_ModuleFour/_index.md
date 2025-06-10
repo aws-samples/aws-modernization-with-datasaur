@@ -1,11 +1,11 @@
 ---
-title: "Vector Store"
+title: "Knowledge Base"
 chapter: true
 weight: 4
 ---
 
-# Vector Store 
+# Knowledge Base 
 
-We now show how you can integrate Vector Stores with LLM Labs.
+We now show how you can integrate Knowledge Bases with LLM Labs.
 <br>
 

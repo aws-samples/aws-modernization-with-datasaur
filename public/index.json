@@ -25,14 +25,14 @@
 	"title": "Getting Started",
 	"tags": [],
 	"description": "",
-	"content": "Getting Started You can visit the Vector stores page by selecting the Vector stores option located in the LLM Labs sidebar.\n"
+	"content": "Getting Started You can visit the Knowledge Bases page by selecting the Knowledge Bases option located in the LLM Labs sidebar.\n"
 },
 {
 	"uri": "//localhost:1313/5_modulefive_compare/41_gettingstarted.html",
 	"title": "Getting Started with the Sandbox",
 	"tags": [],
 	"description": "",
-	"content": "Getting Started with the Sandbox Step 1: Create Your Sandbox Create Sandbox\nClick on \u0026ldquo;Create Sandbox\u0026rdquo; to establish your dedicated workspace. You can assign a descriptive name to your sandbox for easy identification. Step 2: Configure the Sandbox Application Configure the Application\nAccess the \u0026ldquo;Models Configuration\u0026rdquo; section. You can adjust various parameters for the connected LLM model, such as temperature or token settings. Here we will test multiple Amazon Bedrock models to discover the best performing and cost efficient model. Experiment with different configurations to observe their impact on the model\u0026rsquo;s responses.\nStep 3: Run Prompts Enter your desired prompt within the designated area. This prompt can be a question, a task instruction, or any text input you want the LLM model to process. Click \u0026ldquo;Run\u0026rdquo; to trigger the model\u0026rsquo;s response based on your prompt. RAG Example: Healthcare Assistant Here is how Vector Store can streamline the development of a Retrieval-Augmented Generation (RAG) based Healthcare Assistant in LLM Labs:\nCreate the Sandbox with the User Instruction and System Instruction you\u0026rsquo;ve prepared.\nFrom the Vector stores dropdown, select the vector store you created.\nYou can then compare other models to your initial choice by selecting \u0026ldquo;+ Add Application\u0026rdquo;.\nYou can keep adding “applications” to test different LLMs against your prompt on the right side of your interface.\nSimply select: “Add Prompt” and then type your query/prompt while making sure all of your “applications” are selected.\nOnce you select “Run All” – you will receive responses from all of the Amazon models, receiving their response, inference time, and estimated cost.\n"
+	"content": "Getting Started with the Sandbox Step 1: Create Your Sandbox Create Sandbox\nClick on \u0026ldquo;Create Sandbox\u0026rdquo; to establish your dedicated workspace. You can assign a descriptive name to your sandbox for easy identification. Select [+ Add Application], Applications are a configured LLM that you’ll be able to test against prompts and eventually deploy. You can create multiple Applications in the Sandbox and test them against the same prompt.\nSelect from the list of deployed models for your Application.\nStep 2: Configure the Sandbox Application Configure the Application\nAccess the \u0026ldquo;Models Configuration\u0026rdquo; section. You can adjust various parameters for the connected LLM model, such as temperature or token settings. Here we will test multiple Amazon Bedrock models to discover the best performing and cost efficient model. Experiment with different configurations to observe their impact on the model\u0026rsquo;s responses.\nMake sure to attach the knowledge base you created to your Application to the LLM can reference your database.\nStep 3: Run Prompts Enter your desired prompt within the designated area. This prompt can be a question, a task instruction, or any text input you want the LLM model to process. Click \u0026ldquo;Run\u0026rdquo; to trigger the model\u0026rsquo;s response based on your prompt. Once you have run the prompt against one or more applications you’ll be able to read the output and the corresponding chunks used for the answer.\nYou will also find the cost and inference team for each of your applications.\nYou can also add files and a URL to your prompt.\n"
 },
 {
 	"uri": "//localhost:1313/1_moduleone.html",
@@ -53,7 +53,14 @@
 	"title": "Integrating LLMs Provider",
 	"tags": [],
 	"description": "",
-	"content": "Integrating LLMs Provider You can also integrate into several LLMs providers such as Amazon SageMaker JumpStart, OpenAI, and Azure OpenAI by clicking the Manage providers button.\nTo integrate the LLMs provider, you will need to set up and add their providers credentials in Datasaur. Once the provider is integrated, you can deploy and use their own models in Datasaur. Deploy the models After integrating the LLMs provider, you can deploy your own model in Datasaur. To deploy the model, click on \u0026lsquo;Deploy model\u0026rsquo;. The Deploy model dialog will be shown. In this dialog, you need to input your specific endpoint name. Once you\u0026rsquo;ve clicked the Deploy model button, you will need to wait several minutes for deployment to complete. You can monitor the latest status of the deployment through model status information at the top right. After the deployment process is complete, the model status will change to Available in the status information. "
+	"content": "Integrating LLMs Provider You can also integrate into several LLMs providers such as Amazon SageMaker JumpStart, OpenAI, and Azure OpenAI by clicking the Manage providers button.\nTo integrate the LLMs provider, you will need to set up and add their providers credentials in Datasaur. Once the provider is integrated, you can deploy and use their own models in Datasaur. Deploy the models After integrating the LLMs provider, you can deploy your own model in Datasaur. To deploy the model, click on \u0026lsquo;Deploy model\u0026rsquo;. The Deploy model dialog will be shown. In this dialog, you need to input your specific endpoint name. Once you’ve clicked the Deploy model button, you will need to wait several minutes for deployment to complete. Once is has successfully deployed, you will find your model in the Available Tab.\n"
+},
+{
+	"uri": "//localhost:1313/4_modulefour/42_vectorestorecreation.html",
+	"title": "Knowledge Base Creation",
+	"tags": [],
+	"description": "",
+	"content": "Knowledge Base Creation Click the Create new Knowledge Base button.\nUpload your file and select your embedding model.\nHere you will be able to decide embedding model, chunk size, and the overlap of your chunks. After you have chosen all three options, select the “Process File(s) button.\nThe configurations are:\nEmbedding model: Your preferred embedding models. Several embedding models that we support by default are:\nOpenAI (served by Datasaur)\ntext-embedding-ada-002 text-embedding-3-small text-embedding-3-large Text Embedding Ada 002 Text Embedding 3 Small Text Embedding 3 Large Amazon Bedrock (served by Datasaur)\namazon.titan-embed-text-v1 amazon.titan-embed-image-v1 amazon.titan-embed-text-v2:0 cohere.embed-english-v3 cohere.embed-multilingual-v3 Vertex AI (served by Datasaur)\ntextembedding-gecko@003 text-embedding-004 textembedding-gecko-multilingual@001 text-multilingual-embedding-002 Chunk size: The maximum number of characters that a chunk can contain. The larger the numbers, the bigger each chunk will be, allowing more data to be included within it.\nOverlap: The number of characters that should overlap between two adjacent chunks. The larger the overlap, the more information each chunk shares with its neighboring chunks.\nAdvanced settings: Additional settings can enhance your data organization by enabling you to provide information about the file using the File Properties feature.\n"
 },
 {
 	"uri": "//localhost:1313/2_moduletwo_setup.html",
@@ -63,39 +70,32 @@
 	"content": "Prerequisites and Setup Sign Up for LLM Labs Sign Up To sign up for Datasaur all you need to do is go to: https://datasaur.ai/llm/llm-home\u000bSelect: “Sign up for free” at the top of the page.\nCreate Your Workspace Once you find yourself in your LLM Labs workspace, navigate to the left menu panel.\nSelect “Settings.” On this page you will be able to connect to:\nChange your workspace name and picture Create API keys Enable SAML 2.0 to securitize team logins The above 3 options are optional; you do not have to create a name for the workspace, create API keys, or enable SAML 2.0.\n"
 },
 {
-	"uri": "//localhost:1313/4_modulefour/42_vectorestorecreation.html",
-	"title": "Vector Store Creation",
-	"tags": [],
-	"description": "",
-	"content": "Vector Store Creation Click the Create new vector store button.\nConfigure your vector store settings.\nThe configurations are:\nName: Your preferred vector store name\nVector store provider: We support two types of vector store provider:\nDatasaur: Utilizing the Datasaur provider means Datasaur will handle the embedding process for you.\nExternal: Choosing the External provider allows you to handle the embedding process independently.\nEmbedding model: Your preferred embedding models. Several embedding models that we support by default are:\nAmazon Bedrock (served by Datasaur)\namazon.titan-embed-text-v1 amazon.titan-embed-image-v1 amazon.titan-embed-text-v2:0 cohere.embed-english-v3 cohere.embed-multilingual-v3 OpenAI (served by Datasaur)\nText Embedding Ada 002 Text Embedding 3 Small Text Embedding 3 Large Vertex AI (served by Datasaur)\ntextembedding gecko@003 text-embedding-004 textembedding-gecko-multilingual@001 text-multilingual-embedding-002 Chunk size: The maximum number of characters that a chunk can contain. The larger the numbers, the bigger each chunk will be, allowing more data to be included within it.\nOverlap: The number of characters that should overlap between two adjacent chunks. The larger the overlap, the more information each chunk shares with its neighboring chunks.\nAdvanced settings: Additional settings can enhance your data organization by enabling you to provide information about the file using the File Properties feature.\n"
-},
-{
 	"uri": "//localhost:1313/5_modulefive_compare/43_deployingllm.html",
 	"title": "Deploying the LLM",
 	"tags": [],
 	"description": "",
-	"content": "Deploying the LLM Once you\u0026rsquo;ve crafted the perfect LLM configuration within the Sandbox, you can seamlessly transition it into a real-world application.\nThis configured Sandbox environment translates to your LLM Application. LLM Labs empowers you to effortlessly deploy your LLM Application, making it accessible via API for integration into your workflows.\nDeployment Page\nThe deployment process is designed for simplicity. Here\u0026rsquo;s how to deploy your LLM Application:\nNavigate to the Deployment Page: Within the Sandbox, locate the dedicated deployment section. Choose Your LLM Application: Select the specific LLM Application (configured Sandbox) you want to deploy. Deploy and Access: Initiate the deployment process. Upon successful completion, you\u0026rsquo;ll be able to access your deployed LLM Application through various programming languages like cURL, Python, and Typescript, allowing you to integrate it into your development projects. "
+	"content": "Deploying the LLM Once you\u0026rsquo;ve crafted the perfect LLM configuration within the Sandbox, you can seamlessly transition it into a real-world application.\nThis configured Sandbox environment translates to your LLM Application. LLM Labs empowers you to effortlessly deploy your LLM Application, making it accessible via API for integration into your workflows.\nOnce you have decided on the LLM Application you would like to deploy select the rocket icon on the Application.\nAfter you named your deployed application, you’ll be brought to the deployed application page where you’ll be able to retrieve the API endpoint. You can call your LLM directly to your application\nDeployment Page\nFor future reference, you can go back to all of your previously deployed Applications by opening the left hand panel menu and selecting “Deployed Applications.”\n"
 },
 {
 	"uri": "//localhost:1313/3_modulethree.html",
 	"title": "Explore Over 200 Models",
 	"tags": [],
 	"description": "",
-	"content": "Explore Over 200 Models With LLM Labs you can explore over 200 LLMs to help you compare and validate the right model for your project.\n"
-},
-{
-	"uri": "//localhost:1313/4_modulefour/43_knowledgebase.html",
-	"title": "Knowledge Base",
-	"tags": [],
-	"description": "",
-	"content": "Knowledge Base Once the vector store is created, you can add your files for embedding by uploading them to the Knowledge Base. You can also add your files via the External Object Storage.\nAfter you select the files, please click on the \u0026ldquo;Update Vector Store\u0026rdquo; button to initiate the embedding process. The embedding process might take some time, depending on the file size and the number of files.\nAfter completing the embedding process, you can preview the files and use them to conduct Retrieval-Augmented Generation (RAG) in LLM Labs. In this example, we embed our sample \u0026ldquo;Patient Records,\u0026rdquo; which will be used for the RAG process in LLM Labs.\n"
+	"content": "Explore Over 250 Models With LLM Labs you can explore over 250 LLMs to help you compare and validate the right model for your project.\n"
 },
 {
 	"uri": "//localhost:1313/3_modulethree/33_mymodels.html",
-	"title": "My Models",
+	"title": "Models Catalog",
 	"tags": [],
 	"description": "",
-	"content": "My Models The My Models page allows you to view all deployed models and provides functionality for deploying and undeploying models.\nBy default, Datasaur already provides you with Direct Access LLMs that are ready to use on this My models page. Every new model that you deploy in the LLMs providers will be synced to Datasaur, and you can use it right away in Datasaur. If the models you just deployed haven\u0026rsquo;t appeared on My models page, you can click the Sync models button.\nUndeploying models To undeploy a model, you can click the three dots on the model card and select the Undeploy model button.\nThe model status will be changed into unavailable once you click the Undeploy model button.\n"
+	"content": "Models Catalog The Models Catalog page allows you to view all deployed models and provides functionality for deploying and undeploying models.\nBy default, Datasaur already provides you with Direct Access LLMs that are ready to use on this My models page. Every new model that you deploy in the LLMs providers will be synced to Datasaur, and you can use it right away in Datasaur. If the models you just deployed haven\u0026rsquo;t appeared on Models Catalog page, you can click the Sync models button.\n"
+},
+{
+	"uri": "//localhost:1313/4_modulefour/43_knowledgebase.html",
+	"title": "Search",
+	"tags": [],
+	"description": "",
+	"content": "Search Once you have uploaded your file(s) for your database and selected the embedding configurations, we can test whether the embedding is preferred. Select the Search tab.\nType in a query and the search function allows you to validate the effectiveness of your knowledge base in providing context. The search results are shown in chunks that follow the chunk size and overlap value you specified. Each chunk will have a similarity score along with its source. A higher similarity score means the chunk content is more related to the given prompt.\n"
 },
 {
 	"uri": "//localhost:1313/3_modulethree/34_disconnect.html",
@@ -105,18 +105,11 @@
 	"content": "Disconnect the LLMs Provider You can disconnect the LLMs provider by clicking the Manage providers button. The Manage providers dialog will be shown, and you can see the providers that you have already connected.\nClick the See details button, and you will see the Disconnect button in the bottom left of the dialog.\nOnce you’ve clicked the Disconnect button, the providers will be disconnected from your workspace.\n"
 },
 {
-	"uri": "//localhost:1313/4_modulefour/44_search.html",
-	"title": "Search",
-	"tags": [],
-	"description": "",
-	"content": "Search The search function allows you to validate the effectiveness of your knowledge base in providing context. The search results are shown in chunks that follow the chunk size and overlap value you specified when creating the vector store. Each chunk will have a similarity score along with its source. A higher similarity score means the chunk content is more related to the given prompt.\n"
-},
-{
 	"uri": "//localhost:1313/4_modulefour.html",
-	"title": "Vector Store",
+	"title": "Knowledge Base",
 	"tags": [],
 	"description": "",
-	"content": "Vector Store We now show how you can integrate Vector Stores with LLM Labs. "
+	"content": "Knowledge Base We now show how you can integrate Knowledge Bases with LLM Labs. "
 },
 {
 	"uri": "//localhost:1313/4_modulefour/45_activity.html",
