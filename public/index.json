@@ -18,7 +18,7 @@
 	"title": "Explore the Models",
 	"tags": [],
 	"description": "",
-	"content": "Explore the Models Navigate to the Models page under LLM Labs menu. Here you can see a lot of models that you can use.\n"
+	"content": "Explore the Models Navigate to the Models page under LLM Labs menu.\nHere you can see a lot of models that you can use.\n"
 },
 {
 	"uri": "//localhost:1313/4_modulefour/41_gettingstarted.html",
@@ -53,7 +53,7 @@
 	"title": "Integrating LLMs Provider",
 	"tags": [],
 	"description": "",
-	"content": "Integrating LLMs Provider You can also integrate into several LLMs providers such as Amazon SageMaker JumpStart, OpenAI, and Azure OpenAI by clicking the Manage providers button.\nTo integrate the LLMs provider, you will need to set up and add their providers credentials in Datasaur. Once the provider is integrated, you can deploy and use their own models in Datasaur. Deploy the models After integrating the LLMs provider, you can deploy your own model in Datasaur. To deploy the model, click on \u0026lsquo;Deploy model\u0026rsquo;. The Deploy model dialog will be shown. In this dialog, you need to input your specific endpoint name. Once you’ve clicked the Deploy model button, you will need to wait several minutes for deployment to complete. Once is has successfully deployed, you will find your model in the Available Tab.\n"
+	"content": "Integrating LLMs Provider You can also integrate into several LLMs providers such as Amazon SageMaker JumpStart, OpenAI, and Azure OpenAI by clicking the Manage providers button.\nTo integrate the LLMs provider, you will need to set up and add their providers credentials in Datasaur. Once the provider is integrated, you can deploy and use their own models in Datasaur. Deploy the models After integrating the LLMs provider, you can deploy your own model in Datasaur. To deploy the model, click on \u0026lsquo;Deploy model\u0026rsquo;. The Deploy model dialog will be shown. In this dialog, you need to input your specific endpoint name.\nOnce you’ve clicked the Deploy model button, you will need to wait several minutes for deployment to complete. Once is has successfully deployed, you will find your model in the Available Tab.\n"
 },
 {
 	"uri": "//localhost:1313/4_modulefour/42_vectorestorecreation.html",
