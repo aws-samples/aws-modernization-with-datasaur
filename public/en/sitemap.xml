@@ -38,6 +38,8 @@
   </url><url>
     <loc>//localhost:1313/3_modulethree/32_integrating.html</loc>
   </url><url>
+    <loc>//localhost:1313/4_modulefour/42_vectorestorecreation.html</loc>
+  </url><url>
     <loc>//localhost:1313/2_moduletwo_setup.html</loc>
     <xhtml:link
                 rel="alternate"
@@ -49,8 +51,6 @@
                 hreflang="en"
                 href="//localhost:1313/2_moduletwo_setup.html"
                 />
-  </url><url>
-    <loc>//localhost:1313/4_modulefour/42_vectorestorecreation.html</loc>
   </url><url>
     <loc>//localhost:1313/5_modulefive_compare/43_deployingllm.html</loc>
   </url><url>
@@ -66,13 +66,11 @@
                 href="//localhost:1313/3_modulethree.html"
                 />
   </url><url>
-    <loc>//localhost:1313/4_modulefour/43_knowledgebase.html</loc>
-  </url><url>
     <loc>//localhost:1313/3_modulethree/33_mymodels.html</loc>
   </url><url>
-    <loc>//localhost:1313/3_modulethree/34_disconnect.html</loc>
+    <loc>//localhost:1313/4_modulefour/43_knowledgebase.html</loc>
   </url><url>
-    <loc>//localhost:1313/4_modulefour/44_search.html</loc>
+    <loc>//localhost:1313/3_modulethree/34_disconnect.html</loc>
   </url><url>
     <loc>//localhost:1313/4_modulefour.html</loc>
     <xhtml:link

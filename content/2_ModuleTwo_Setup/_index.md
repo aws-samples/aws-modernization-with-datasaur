@@ -15,7 +15,8 @@ To sign up for Datasaur all you need to do is go to: https://datasaur.ai/llm/llm
 Select: “Sign up for free” at the top of the page. 
 
 <!-- ![Partner Logo](/images/signup.png) -->
-![Partner Logo](/images/privateclaude.png) 
+
+![Partner Logo](/images/privatellm-2.png) 
 
 ### Create Your Workspace
 
@@ -27,7 +28,8 @@ Select “Settings.” On this page you will be able to connect to:
 3) Enable SAML 2.0 to securitize team logins
 
 <!-- ![Workshop](/images/Workshop.png) -->
-![Workshop](/images/workspaceinfo.png) 
+
+![Workshop](/images/workspaceinfo-2.png) 
 The above 3 options are optional; you do not have to create a name for the workspace, create API keys, or enable SAML 2.0. 
 
 
