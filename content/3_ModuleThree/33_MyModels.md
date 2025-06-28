@@ -8,7 +8,7 @@ weight: 3 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES
 The **Models Catalog** page allows you to view all deployed models and provides functionality for deploying and undeploying models.
 
 By default, Datasaur already provides you with Direct Access LLMs that are ready to use on this My models page.
-![mymodels](/images/createfine-tuned2-2.png) 
+![mymodels](/images/modelscatalogavailable33.png) 
  Every new model that you deploy in the LLMs providers will be synced to Datasaur, and you can use it right away in Datasaur. If the models you just deployed haven't appeared on **Models Catalog** page, you can click the **Sync models** button.
 
 
